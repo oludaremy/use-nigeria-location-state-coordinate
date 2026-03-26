@@ -6,19 +6,15 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Abia",
       capital: "Umuahia",
       id: "2e14a7ed-349a-44f6-9e12-abfec3e5f6ed",
+      latitude: 5.5267,
+      longitude: 7.4898,
       lgas: [
         { name: "Aba South", id: "4c840cb1-8f58-40d3-9aff-5a3b77fdba71" },
         { name: "Arochukwu", id: "f46f5f01-43e1-440c-84a5-72382d0e6b94" },
         { name: "Bende", id: "836932e0-0aa7-4f7c-a3ef-44b5d30775c4" },
         { name: "Ikwuano", id: "4a863c1f-a2ed-4f9a-9609-2807db717e1b" },
-        {
-          name: "Isiala Ngwa North",
-          id: "a619ba99-8f0a-4462-89d8-95f1edfaacdd",
-        },
-        {
-          name: "Isiala Ngwa South",
-          id: "005d7cbc-b76e-4366-af2f-333d95bc66f3",
-        },
+        { name: "Isiala Ngwa North", id: "a619ba99-8f0a-4462-89d8-95f1edfaacdd" },
+        { name: "Isiala Ngwa South", id: "005d7cbc-b76e-4366-af2f-333d95bc66f3" },
         { name: "Isuikwuato", id: "e754ae36-a11e-4ec0-bef1-476779efb33b" },
         { name: "Obi Ngwa", id: "d11f97e0-2b8f-4e11-80d4-1adb6d1a6b8d" },
         { name: "Ohafia", id: "695ec34e-73a4-45d6-9240-3e7bafd62876" },
@@ -26,28 +22,14 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Ugwunagbo", id: "0d14c35c-09e5-4c43-ae6b-06cf4ed30699" },
         { name: "Ukwa East", id: "0d3f633c-aa1f-4678-952e-4d7fbbc9810a" },
         { name: "Ukwa West", id: "b19151b0-34cd-4e4c-9ccd-a07e7bfafb9a" },
-        {
-          name: "Umuahia North",
-          id: "8a43dc24-8482-4481-9692-1fae01eb1c62",
-        },
-        {
-          name: "Umuahia South",
-          id: "79fbbb9d-92d4-4edf-b76d-ad2fcef45303",
-        },
+        { name: "Umuahia North", id: "8a43dc24-8482-4481-9692-1fae01eb1c62" },
+        { name: "Umuahia South", id: "79fbbb9d-92d4-4edf-b76d-ad2fcef45303" },
         { name: "Umu Nneochi", id: "4df16429-2f21-4fb5-84ea-c7c153447989" },
       ],
       land_mass: "6,320 km²",
       universities: [
-        {
-          name: "Abia State University",
-          location: "Uturu",
-          type: "State",
-        },
-        {
-          name: "Michael Okpara University of Agriculture",
-          location: "Umudike",
-          type: "Federal",
-        },
+        { name: "Abia State University", location: "Uturu", type: "State" },
+        { name: "Michael Okpara University of Agriculture", location: "Umudike", type: "Federal" },
       ],
       airports: [],
       geopolitical_zone: "South East",
@@ -58,6 +40,8 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Adamawa",
       capital: "Yola",
       id: "3ac495b8-4196-4126-bf9e-bb8d43a0355d",
+      latitude: 9.3265,
+      longitude: 12.3984,
       lgas: [
         { name: "Fufure", id: "72ec4817-b0dc-409a-8e10-104a5af5b878" },
         { name: "Ganye", id: "6e6b08f5-cbbe-44d4-ad31-5c9d50281bab" },
@@ -82,23 +66,11 @@ export const NigeriaLocations: TLocationInfo[] = [
       ],
       land_mass: "36,917 km²",
       universities: [
-        {
-          name: "Modibbo Adama University of Technology",
-          location: "Yola",
-          type: "Federal",
-        },
-        {
-          name: "Adamawa State University",
-          location: "Mubi",
-          type: "State",
-        },
+        { name: "Modibbo Adama University of Technology", location: "Yola", type: "Federal" },
+        { name: "Adamawa State University", location: "Mubi", type: "State" },
       ],
       airports: [
-        {
-          name: "Yola Airport",
-          IATA_code: "YOL",
-          type: "Domestic",
-        },
+        { name: "Yola Airport", IATA_code: "YOL", type: "Domestic" },
       ],
       geopolitical_zone: "North East",
     },
@@ -108,21 +80,17 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Akwa Ibom",
       capital: "Uyo",
       id: "b6ed5429-7677-4aad-bf2a-97ce4f211494",
+      latitude: 5.0376,
+      longitude: 7.9128,
       lgas: [
-        {
-          name: "Eastern Obolo",
-          id: "74341b4d-a61c-4834-91e0-832fb69b0c0b",
-        },
+        { name: "Eastern Obolo", id: "74341b4d-a61c-4834-91e0-832fb69b0c0b" },
         { name: "Eket", id: "89e9f9a3-d256-4f25-a604-f22bf808b3fd" },
         { name: "Esit Eket", id: "afcf6877-8101-4464-bfe3-0746019226f8" },
         { name: "Essien Udim", id: "be3d998b-1c05-489e-bc83-c773cae8b9ff" },
         { name: "Etim Ekpo", id: "2a72bc87-3638-466e-94f7-83b4800db07a" },
         { name: "Etinan", id: "55257d91-5d09-47d9-abc9-baabdd389f78" },
         { name: "Ibeno", id: "dad97d05-a4e2-4225-879a-cbccddbcbe75" },
-        {
-          name: "Ibesikpo Asutan",
-          id: "6bb9078e-0163-482e-8893-a954620cb8fc",
-        },
+        { name: "Ibesikpo Asutan", id: "6bb9078e-0163-482e-8893-a954620cb8fc" },
         { name: "Ibiono-Ibom", id: "87c4660a-bae0-4e0e-81d3-7b7c470ec91e" },
         { name: "Ika", id: "4e345e6e-925d-45f6-9067-e0e97871ec25" },
         { name: "Ikono", id: "d4b1f61d-8aa4-48df-9f67-c383b37db244" },
@@ -143,31 +111,16 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Udung-Uko", id: "e20fe577-3b7e-444f-b319-3cbecc1a11e2" },
         { name: "Ukanafun", id: "2d744ace-318f-4604-a956-c53cabbef15d" },
         { name: "Uruan", id: "f5f281db-5cde-4c1a-86bf-3190b812e61b" },
-        {
-          name: "Urue-Offong/Oruko",
-          id: "a6bd644f-7475-497e-84ac-2cc9de04b155",
-        },
+        { name: "Urue-Offong/Oruko", id: "a6bd644f-7475-497e-84ac-2cc9de04b155" },
         { name: "Uyo", id: "7a3d77d1-1e2c-4388-be86-a523ceb47cc2" },
       ],
       land_mass: "7,081 km²",
       universities: [
-        {
-          name: "University of Uyo",
-          location: "Uyo",
-          type: "Federal",
-        },
-        {
-          name: "Akwa Ibom State University",
-          location: "Ikot Akpaden",
-          type: "State",
-        },
+        { name: "University of Uyo", location: "Uyo", type: "Federal" },
+        { name: "Akwa Ibom State University", location: "Ikot Akpaden", type: "State" },
       ],
       airports: [
-        {
-          name: "Akwa Ibom Airport",
-          IATA_code: "QUO",
-          type: "Domestic",
-        },
+        { name: "Akwa Ibom Airport", IATA_code: "QUO", type: "Domestic" },
       ],
       geopolitical_zone: "South South",
     },
@@ -177,71 +130,37 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Anambra",
       capital: "Awka",
       id: "0e271f96-7c39-4785-a848-756063f03102",
+      latitude: 6.2209,
+      longitude: 7.067,
       lgas: [
-        {
-          name: "Anambra East",
-          id: "a4241c8e-4cb1-491f-8c2d-ad7b90c2c028",
-        },
-        {
-          name: "Anambra West",
-          id: "b10a0dad-954a-42b4-a566-7715c38a57cf",
-        },
+        { name: "Anambra East", id: "a4241c8e-4cb1-491f-8c2d-ad7b90c2c028" },
+        { name: "Anambra West", id: "b10a0dad-954a-42b4-a566-7715c38a57cf" },
         { name: "Anaocha", id: "e6caa17d-413a-4b51-898b-22b0dd8bdcca" },
         { name: "Awka North", id: "99463647-c3ba-43bf-9d95-944345f9c25f" },
         { name: "Awka South", id: "5078dc5b-f1ff-4506-89e4-3e53c46a0e2b" },
         { name: "Ayamelum", id: "8bcb7743-0dc1-4905-90f7-cee949905ad6" },
         { name: "Dunukofia", id: "314a2410-df3e-442e-9dce-2d755bf6066e" },
         { name: "Ekwusigo", id: "17f08cf1-3afa-498f-a945-44f767592451" },
-        {
-          name: "Idemili North",
-          id: "fd9f55d7-1419-4080-b868-f178b0fd78a9",
-        },
-        {
-          name: "Idemili South",
-          id: "b587faf4-2922-4118-8c51-7f24cc54e973",
-        },
+        { name: "Idemili North", id: "fd9f55d7-1419-4080-b868-f178b0fd78a9" },
+        { name: "Idemili South", id: "b587faf4-2922-4118-8c51-7f24cc54e973" },
         { name: "Ihiala", id: "d03bb42a-979d-421f-9d03-95f942c65caf" },
         { name: "Njikoka", id: "2da99662-1f43-490b-9b58-b043e9589a5e" },
         { name: "Nnewi North", id: "c9141d9d-9533-43c7-85b5-ab2ccfa5f504" },
         { name: "Nnewi South", id: "b28c8eab-0ac9-454f-945b-686dd9fee158" },
         { name: "Ogbaru", id: "5dd7c4f8-98ef-4e08-bf55-5c791f3cb63d" },
-        {
-          name: "Onitsha North",
-          id: "2c95b498-f0d5-4054-82ab-0cbed4868b6a",
-        },
-        {
-          name: "Onitsha South",
-          id: "d832aca9-8689-4f9c-8fa8-b5419a451066",
-        },
-        {
-          name: "Orumba North",
-          id: "52e11ee3-2c58-4e70-9cd1-df64c88f0cf3",
-        },
-        {
-          name: "Orumba South",
-          id: "bccbefdd-aeb8-4232-b687-5392d461de6b",
-        },
+        { name: "Onitsha North", id: "2c95b498-f0d5-4054-82ab-0cbed4868b6a" },
+        { name: "Onitsha South", id: "d832aca9-8689-4f9c-8fa8-b5419a451066" },
+        { name: "Orumba North", id: "52e11ee3-2c58-4e70-9cd1-df64c88f0cf3" },
+        { name: "Orumba South", id: "bccbefdd-aeb8-4232-b687-5392d461de6b" },
         { name: "Oyi", id: "c18e0eee-831c-42c3-bae4-061fee6ab798" },
       ],
       land_mass: "4,844 km²",
       universities: [
-        {
-          name: "Nnamdi Azikiwe University",
-          location: "Awka",
-          type: "Federal",
-        },
-        {
-          name: "Chukwuemeka Odumegwu Ojukwu University",
-          location: "Uli",
-          type: "State",
-        },
+        { name: "Nnamdi Azikiwe University", location: "Awka", type: "Federal" },
+        { name: "Chukwuemeka Odumegwu Ojukwu University", location: "Uli", type: "State" },
       ],
       airports: [
-        {
-          name: "Anambra International Cargo and Passenger Airport",
-          IATA_code: "",
-          type: "Domestic",
-        },
+        { name: "Anambra International Cargo and Passenger Airport", IATA_code: "", type: "Domestic" },
       ],
       geopolitical_zone: "South East",
     },
@@ -251,6 +170,8 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Bauchi",
       capital: "Bauchi",
       id: "7619a71a-bbe6-49c7-84f4-f63640a9ce05",
+      latitude: 10.3158,
+      longitude: 9.8442,
       lgas: [
         { name: "Bauchi", id: "2ab83110-2798-44ae-a145-465466feaa94" },
         { name: "Bogoro", id: "04aa79bf-1c4b-4685-81e4-e520e1c68be8" },
@@ -267,33 +188,18 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Misau", id: "adb92ecd-937f-4993-a78e-46eab6d00568" },
         { name: "Ningi", id: "47ee438c-f080-4062-9281-29d800eece0f" },
         { name: "Shira", id: "88df79eb-e945-4899-9f29-e1ad86f91c51" },
-        {
-          name: "Tafawa Balewa",
-          id: "1d585c94-c3d5-4f1f-b815-8226b6fb580b",
-        },
+        { name: "Tafawa Balewa", id: "1d585c94-c3d5-4f1f-b815-8226b6fb580b" },
         { name: "Toro", id: "f02c85a8-edb2-495b-b353-b856d6a1ba69" },
         { name: "Warji", id: "b492415a-8894-440c-b60c-5bc9d8383c1b" },
         { name: "Zaki", id: "684b7710-4b29-410c-be08-609745cd1b67" },
       ],
       land_mass: "49,119 km²",
       universities: [
-        {
-          name: "Abubakar Tafawa Balewa University",
-          location: "Bauchi",
-          type: "Federal",
-        },
-        {
-          name: "Bauchi State University",
-          location: "Gadau",
-          type: "State",
-        },
+        { name: "Abubakar Tafawa Balewa University", location: "Bauchi", type: "Federal" },
+        { name: "Bauchi State University", location: "Gadau", type: "State" },
       ],
       airports: [
-        {
-          name: "Sir Abubakar Tafawa Balewa Airport",
-          IATA_code: "BCU",
-          type: "Domestic",
-        },
+        { name: "Sir Abubakar Tafawa Balewa Airport", IATA_code: "BCU", type: "Domestic" },
       ],
       geopolitical_zone: "North East",
     },
@@ -303,40 +209,24 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Bayelsa",
       capital: "Yenagoa",
       id: "cf2dbe4e-3e3b-4468-b139-784b705aaccf",
+      latitude: 4.9267,
+      longitude: 6.2676,
       lgas: [
         { name: "Ekeremor", id: "ac8fafec-5f06-4d39-b2f5-af9eb9823f3b" },
-        {
-          name: "Kolokuma/Opokuma",
-          id: "8a14aef3-dbbc-48f6-97a0-18d05e900544",
-        },
+        { name: "Kolokuma/Opokuma", id: "8a14aef3-dbbc-48f6-97a0-18d05e900544" },
         { name: "Nembe", id: "9a3fa96f-c2da-42e8-af4a-818bf50c4a13" },
         { name: "Ogbia", id: "80d77e77-f973-4651-a4c1-09aa8256ada2" },
         { name: "Sagbama", id: "c36eafaf-7df1-44ec-90af-02637df7a700" },
-        {
-          name: "Southern Ijaw",
-          id: "66f26225-3857-4716-a225-949f6de5e7a3",
-        },
+        { name: "Southern Ijaw", id: "66f26225-3857-4716-a225-949f6de5e7a3" },
         { name: "Yenagoa", id: "976b9d8d-5cec-49f6-acab-99385b124b9f" },
       ],
       land_mass: "10,773 km²",
       universities: [
-        {
-          name: "Niger Delta University",
-          location: "Wilberforce Island",
-          type: "State",
-        },
-        {
-          name: "Federal University, Otuoke",
-          location: "Otuoke",
-          type: "Federal",
-        },
+        { name: "Niger Delta University", location: "Wilberforce Island", type: "State" },
+        { name: "Federal University, Otuoke", location: "Otuoke", type: "Federal" },
       ],
       airports: [
-        {
-          name: "Bayelsa International Airport",
-          IATA_code: "",
-          type: "Domestic",
-        },
+        { name: "Bayelsa International Airport", IATA_code: "", type: "Domestic" },
       ],
       geopolitical_zone: "South South",
     },
@@ -346,6 +236,8 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Benue",
       capital: "Makurdi",
       id: "7ea56097-9797-436d-b7be-1a4760f2605d",
+      latitude: 7.731,
+      longitude: 8.5374,
       lgas: [
         { name: "Apa", id: "5ef882b3-b30f-478b-a593-84cdf75fcd89" },
         { name: "Ado", id: "00459df8-ad7d-4071-9a3e-07cf0600be23" },
@@ -372,23 +264,11 @@ export const NigeriaLocations: TLocationInfo[] = [
       ],
       land_mass: "34,059 km²",
       universities: [
-        {
-          name: "Benue State University",
-          location: "Makurdi",
-          type: "State",
-        },
-        {
-          name: "Federal University of Agriculture",
-          location: "Makurdi",
-          type: "Federal",
-        },
+        { name: "Benue State University", location: "Makurdi", type: "State" },
+        { name: "Federal University of Agriculture", location: "Makurdi", type: "Federal" },
       ],
       airports: [
-        {
-          name: "Makurdi Airport",
-          IATA_code: "MDI",
-          type: "Domestic",
-        },
+        { name: "Makurdi Airport", IATA_code: "MDI", type: "Domestic" },
       ],
       geopolitical_zone: "North Central",
     },
@@ -398,6 +278,8 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Borno",
       capital: "Maiduguri",
       id: "069616ef-7e11-448d-875d-9825ed09d3af",
+      latitude: 11.8311,
+      longitude: 13.1501,
       lgas: [
         { name: "Askira/Uba", id: "50ef303e-3a5b-42b0-9639-f8356b787c5f" },
         { name: "Bama", id: "b94099d3-6b3d-4044-b40d-fce7999d6606" },
@@ -428,23 +310,11 @@ export const NigeriaLocations: TLocationInfo[] = [
       ],
       land_mass: "70,898 km²",
       universities: [
-        {
-          name: "University of Maiduguri",
-          location: "Maiduguri",
-          type: "Federal",
-        },
-        {
-          name: "Borno State University",
-          location: "Maiduguri",
-          type: "State",
-        },
+        { name: "University of Maiduguri", location: "Maiduguri", type: "Federal" },
+        { name: "Borno State University", location: "Maiduguri", type: "State" },
       ],
       airports: [
-        {
-          name: "Maiduguri International Airport",
-          IATA_code: "MIU",
-          type: "Domestic",
-        },
+        { name: "Maiduguri International Airport", IATA_code: "MIU", type: "Domestic" },
       ],
       geopolitical_zone: "North East",
     },
@@ -454,6 +324,8 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Cross River",
       capital: "Calabar",
       id: "7df293bc-7a7e-4dd2-9bf0-3df300be8d61",
+      latitude: 4.9757,
+      longitude: 8.3417,
       lgas: [
         { name: "Akamkpa", id: "dd07fe98-778a-4925-b6de-976141043a4b" },
         { name: "Akpabuyo", id: "613ee9b6-76b6-41f5-baee-3f0e1b1051d8" },
@@ -461,14 +333,8 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Bekwarra", id: "387af01f-23dd-4a77-b0f6-e6844f2baea1" },
         { name: "Biase", id: "86b673ea-9723-4b1a-9464-ebfe6b5a0777" },
         { name: "Boki", id: "b461f623-9c3b-40de-bc99-cd71c25d0572" },
-        {
-          name: "Calabar Municipal",
-          id: "5db3e6ac-4d08-4a23-a128-fb2652458639",
-        },
-        {
-          name: "Calabar South",
-          id: "d5e55b19-fc89-4d06-b0c4-af265b4dc552",
-        },
+        { name: "Calabar Municipal", id: "5db3e6ac-4d08-4a23-a128-fb2652458639" },
+        { name: "Calabar South", id: "d5e55b19-fc89-4d06-b0c4-af265b4dc552" },
         { name: "Etung", id: "ae534af5-f87a-4e90-b804-e0262ab1663c" },
         { name: "Ikom", id: "5bc37023-f60a-4616-8338-5ac0c747b84b" },
         { name: "Obanliku", id: "ea78d900-bad1-478b-be88-e6a8d5432cc9" },
@@ -481,23 +347,11 @@ export const NigeriaLocations: TLocationInfo[] = [
       ],
       land_mass: "20,156 km²",
       universities: [
-        {
-          name: "University of Calabar",
-          location: "Calabar",
-          type: "Federal",
-        },
-        {
-          name: "Cross River University of Technology",
-          location: "Calabar",
-          type: "State",
-        },
+        { name: "University of Calabar", location: "Calabar", type: "Federal" },
+        { name: "Cross River University of Technology", location: "Calabar", type: "State" },
       ],
       airports: [
-        {
-          name: "Margaret Ekpo International Airport",
-          IATA_code: "CBQ",
-          type: "Domestic",
-        },
+        { name: "Margaret Ekpo International Airport", IATA_code: "CBQ", type: "Domestic" },
       ],
       geopolitical_zone: "South South",
     },
@@ -507,83 +361,42 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Delta",
       capital: "Asaba",
       id: "4c142f4d-15c7-468d-bae0-81aa0ef1e744",
+      latitude: 6.2059,
+      longitude: 6.6959,
       lgas: [
-        {
-          name: "Aniocha South",
-          id: "e32db79e-03df-4bfc-93b1-b58f874f61ba",
-        },
+        { name: "Aniocha South", id: "e32db79e-03df-4bfc-93b1-b58f874f61ba" },
         { name: "Bomadi", id: "d7672d2e-6bc2-45e2-84e3-7fba0fa12d83" },
         { name: "Burutu", id: "fe74f927-e190-415f-97f7-027a57036ede" },
-        {
-          name: "Ethiope East",
-          id: "17d46fac-9fac-4974-a12c-531fa03484da",
-        },
-        {
-          name: "Ethiope West",
-          id: "d3951fd5-a279-4882-9366-bd6817dc3c8a",
-        },
-        {
-          name: "Ika North East",
-          id: "951f55a5-91ad-43d2-a824-1934c1611aff",
-        },
+        { name: "Ethiope East", id: "17d46fac-9fac-4974-a12c-531fa03484da" },
+        { name: "Ethiope West", id: "d3951fd5-a279-4882-9366-bd6817dc3c8a" },
+        { name: "Ika North East", id: "951f55a5-91ad-43d2-a824-1934c1611aff" },
         { name: "Ika South", id: "f74964ba-b710-4829-a80e-78959299e983" },
         { name: "Isoko North", id: "7869d3cf-71e5-455b-b28c-1461369d65b1" },
         { name: "Isoko South", id: "a338c8dc-82b7-4f91-a764-54960c816a96" },
         { name: "Ndokwa East", id: "1a4e4efe-230b-493e-9153-9c86ea44b198" },
         { name: "Ndokwa West", id: "83e37a66-df74-4eb7-be20-0642d6223d10" },
         { name: "Okpe", id: "f1ebc0cf-eef3-428c-b49d-03b5ddb6d6de" },
-        {
-          name: "Oshimili North",
-          id: "a5a46c25-ddd0-4f55-acdf-d63dd34fdb62",
-        },
-        {
-          name: "Oshimili South",
-          id: "0e594b21-4b8f-4b79-8f74-b022e4561ff3",
-        },
+        { name: "Oshimili North", id: "a5a46c25-ddd0-4f55-acdf-d63dd34fdb62" },
+        { name: "Oshimili South", id: "0e594b21-4b8f-4b79-8f74-b022e4561ff3" },
         { name: "Patani", id: "07250cff-5af9-4a73-b296-31272ef22489" },
         { name: "Sapele", id: "20c3b67a-440f-4d90-850b-6a4218cc48dc" },
         { name: "Udu", id: "1d8955a4-07d7-4fec-a77c-7703c37d0f6a" },
-        {
-          name: "Ughelli North",
-          id: "9425efc7-bf96-4edc-ae90-8ba55d106a63",
-        },
-        {
-          name: "Ughelli South",
-          id: "87e8a9aa-4c98-4379-9698-873aa72df63c",
-        },
+        { name: "Ughelli North", id: "9425efc7-bf96-4edc-ae90-8ba55d106a63" },
+        { name: "Ughelli South", id: "87e8a9aa-4c98-4379-9698-873aa72df63c" },
         { name: "Ukwuani", id: "e944a171-c4d5-409e-9c97-b82e5eb0855e" },
         { name: "Uvwie", id: "bee85169-2a1e-4294-801e-f934cffe10a9" },
         { name: "Warri North", id: "8fa503d6-3386-4f63-a477-3753876efc09" },
         { name: "Warri South", id: "069905fb-77c9-4f0f-b240-1f696044187b" },
-        {
-          name: "Warri South West",
-          id: "e68f771d-62e5-43ea-8a44-2f652f5d1d8d",
-        },
+        { name: "Warri South West", id: "e68f771d-62e5-43ea-8a44-2f652f5d1d8d" },
       ],
       land_mass: "17,698 km²",
       universities: [
-        {
-          name: "Delta State University",
-          location: "Abraka",
-          type: "State",
-        },
-        {
-          name: "Federal University of Petroleum Resources",
-          location: "Effurun",
-          type: "Federal",
-        },
+        { name: "Delta State University", location: "Abraka", type: "State" },
+        { name: "Federal University of Petroleum Resources", location: "Effurun", type: "Federal" },
       ],
       airports: [
-        {
-          name: "Asaba International Airport",
-          IATA_code: "ABB",
-          type: "Domestic",
-        },
-        {
-          name: "Warri Airport",
-          IATA_code: "QRW",
-          type: "Domestic",
-        },
+        { name: "Asaba International Airport", IATA_code: "ABB", type: "Domestic" },
+        { name: "Warri Airport", IATA_code: "QRW", type: "Domestic" },
       ],
       geopolitical_zone: "South South",
     },
@@ -593,15 +406,11 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Ebonyi",
       capital: "Abakaliki",
       id: "f406e503-58a1-4168-897d-0a376740ea18",
+      latitude: 6.3236,
+      longitude: 8.1136,
       lgas: [
-        {
-          name: "Afikpo North",
-          id: "0123d914-63fe-4f32-94d9-9461c2bc664a",
-        },
-        {
-          name: "Afikpo South",
-          id: "fdecf2de-0f58-45be-9fe9-49d368562f60",
-        },
+        { name: "Afikpo North", id: "0123d914-63fe-4f32-94d9-9461c2bc664a" },
+        { name: "Afikpo South", id: "fdecf2de-0f58-45be-9fe9-49d368562f60" },
         { name: "Ebonyi", id: "2508391b-5efb-4242-8707-11446d4b90c2" },
         { name: "Ezza North", id: "942c2bfd-88fa-4dd5-be77-b2eb0f2e3ce7" },
         { name: "Ezza South", id: "3f13bf41-78c7-48e3-877d-05e22a2f4308" },
@@ -615,23 +424,11 @@ export const NigeriaLocations: TLocationInfo[] = [
       ],
       land_mass: "5,670 km²",
       universities: [
-        {
-          name: "Ebonyi State University",
-          location: "Abakaliki",
-          type: "State",
-        },
-        {
-          name: "Federal University, Ndufu-Alike",
-          location: "Ikwo",
-          type: "Federal",
-        },
+        { name: "Ebonyi State University", location: "Abakaliki", type: "State" },
+        { name: "Federal University, Ndufu-Alike", location: "Ikwo", type: "Federal" },
       ],
       airports: [
-        {
-          name: "Ebonyi International Airport",
-          IATA_code: "",
-          type: "Domestic",
-        },
+        { name: "Ebonyi International Airport", IATA_code: "", type: "Domestic" },
       ],
       geopolitical_zone: "South East",
     },
@@ -641,62 +438,34 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Edo",
       capital: "Benin City",
       id: "24094715-376a-4274-89d9-6303eccb4465",
+      latitude: 6.335,
+      longitude: 5.6037,
       lgas: [
         { name: "Egor", id: "1b8c8cf3-e70c-4917-a92f-fb0ed08ca6a8" },
-        {
-          name: "Esan Central",
-          id: "66cf8bc0-4d2e-4d2e-8870-46d3b55f77c0",
-        },
-        {
-          name: "Esan North-East",
-          id: "15047980-32d5-4086-b1ff-d4b01456c6f3",
-        },
-        {
-          name: "Esan South-East",
-          id: "bfa9d692-5796-4b67-bf82-b57a3facbf1a",
-        },
+        { name: "Esan Central", id: "66cf8bc0-4d2e-4d2e-8870-46d3b55f77c0" },
+        { name: "Esan North-East", id: "15047980-32d5-4086-b1ff-d4b01456c6f3" },
+        { name: "Esan South-East", id: "bfa9d692-5796-4b67-bf82-b57a3facbf1a" },
         { name: "Esan West", id: "4e18b3c2-e9e9-4f45-a1a9-fef2202a310b" },
-        {
-          name: "Etsako Central",
-          id: "bea9fc96-c19b-4eb7-a0e5-30a3ed5907ec",
-        },
+        { name: "Etsako Central", id: "bea9fc96-c19b-4eb7-a0e5-30a3ed5907ec" },
         { name: "Etsako East", id: "dab788f4-af63-47db-ad9a-84aff56e616c" },
         { name: "Etsako West", id: "bd8bced2-b3be-461e-82b4-cf75d5be2546" },
         { name: "Igueben", id: "e200e99e-1a3a-456b-b94c-e41716af82a0" },
         { name: "Ikpoba Okha", id: "4d364cf8-118b-45c0-8e0e-883a5c3f335f" },
         { name: "Orhionmwon", id: "0462fecd-589f-4843-a73d-a2ce3f3013ff" },
         { name: "Oredo", id: "9e58e325-a13d-4a68-a2a6-8030f3e1eae8" },
-        {
-          name: "Ovia North-East",
-          id: "a5b6d565-2b1d-46d7-9829-b9c9de6ab200",
-        },
-        {
-          name: "Ovia South-West",
-          id: "1868245e-0b04-4d4a-964e-0b1535c338ac",
-        },
+        { name: "Ovia North-East", id: "a5b6d565-2b1d-46d7-9829-b9c9de6ab200" },
+        { name: "Ovia South-West", id: "1868245e-0b04-4d4a-964e-0b1535c338ac" },
         { name: "Owan East", id: "dbb39601-c0e2-4ced-ad6b-9ec19bf59f12" },
         { name: "Owan West", id: "326c1fa9-31eb-49a7-bb4f-6f3abd9d4462" },
         { name: "Uhunmwonde", id: "4f7f9611-595e-4586-82ea-50fc57cb3a0f" },
       ],
       land_mass: "17,802 km²",
       universities: [
-        {
-          name: "University of Benin",
-          location: "Benin City",
-          type: "Federal",
-        },
-        {
-          name: "Ambrose Alli University",
-          location: "Ekpoma",
-          type: "State",
-        },
+        { name: "University of Benin", location: "Benin City", type: "Federal" },
+        { name: "Ambrose Alli University", location: "Ekpoma", type: "State" },
       ],
       airports: [
-        {
-          name: "Benin Airport",
-          IATA_code: "BNI",
-          type: "Domestic",
-        },
+        { name: "Benin Airport", IATA_code: "BNI", type: "Domestic" },
       ],
       geopolitical_zone: "South South",
     },
@@ -706,13 +475,12 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Ekiti",
       capital: "Ado-Ekiti",
       id: "46342a17-da7f-4240-9855-2e5b1f773cab",
+      latitude: 7.6213,
+      longitude: 5.2215,
       lgas: [
         { name: "Efon", id: "4c664493-2495-4321-bb0c-a53738f9e97f" },
         { name: "Ekiti East", id: "67b21d73-9a0f-47a4-96d1-a2e22855c528" },
-        {
-          name: "Ekiti South-West",
-          id: "7a71a099-0625-45ae-bfbc-0277656bc943",
-        },
+        { name: "Ekiti South-West", id: "7a71a099-0625-45ae-bfbc-0277656bc943" },
         { name: "Ekiti West", id: "b618f875-aa90-4198-98de-e24ebb43ca34" },
         { name: "Emure", id: "814f3f6c-c0ae-491b-b628-4a5ab355c433" },
         { name: "Gbonyin", id: "d1cbb6af-58eb-4f87-ad20-ed04829e0b82" },
@@ -721,26 +489,15 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Ikere", id: "b9812a12-b027-44bf-9b99-7ef9e9af5126" },
         { name: "Ikole", id: "9042d3ed-d06c-42a7-855e-c60f9ee1901d" },
         { name: "Ilejemeje", id: "9f0001b4-54c9-4b81-acd8-feb4ccf5e27c" },
-        {
-          name: "Irepodun/Ifelodun",
-          id: "6678c9d6-a343-420c-990a-9a1a6b91ecaf",
-        },
+        { name: "Irepodun/Ifelodun", id: "6678c9d6-a343-420c-990a-9a1a6b91ecaf" },
         { name: "Ise/Orun", id: "6ae9772b-d80c-49c2-a09d-57f050378053" },
         { name: "Moba", id: "77797dd1-6802-42df-92c1-97b9ac8f61e0" },
         { name: "Oye", id: "bfce923c-4063-4a69-9b79-d1625d847d05" },
       ],
       land_mass: "6,353 km²",
       universities: [
-        {
-          name: "Ekiti State University",
-          location: "Ado Ekiti",
-          type: "State",
-        },
-        {
-          name: "Federal University, Oye-Ekiti",
-          location: "Oye-Ekiti",
-          type: "Federal",
-        },
+        { name: "Ekiti State University", location: "Ado Ekiti", type: "State" },
+        { name: "Federal University, Oye-Ekiti", location: "Oye-Ekiti", type: "Federal" },
       ],
       airports: [],
       geopolitical_zone: "South West",
@@ -751,6 +508,8 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Enugu",
       capital: "Enugu",
       id: "01b6ca13-7185-4beb-be79-540d8c872a85",
+      latitude: 6.4584,
+      longitude: 7.5083,
       lgas: [
         { name: "Awgu", id: "aad7bae1-9f85-4979-8e39-f3bd84e6b17b" },
         { name: "Enugu East", id: "65811e77-bfd4-4808-ad7f-f1c7095872b5" },
@@ -758,14 +517,8 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Enugu South", id: "4ac454e0-4684-4172-8a5c-3ff022cfb607" },
         { name: "Ezeagu", id: "7f25ec40-ad59-457f-b26b-fe0883dc91c7" },
         { name: "Igbo Etiti", id: "e14289ea-f438-4c51-9fad-69ab1f0ca933" },
-        {
-          name: "Igbo Eze North",
-          id: "8e8a4025-1582-4a0a-9212-8334f024ee18",
-        },
-        {
-          name: "Igbo Eze South",
-          id: "bfbf88e0-6c72-490b-9fe5-3f5ed2ad1245",
-        },
+        { name: "Igbo Eze North", id: "8e8a4025-1582-4a0a-9212-8334f024ee18" },
+        { name: "Igbo Eze South", id: "bfbf88e0-6c72-490b-9fe5-3f5ed2ad1245" },
         { name: "Isi Uzo", id: "d2e98c3d-7d0f-4cca-b398-bb7d860d9653" },
         { name: "Nkanu East", id: "17a3d127-a60e-496a-bdd4-906d3d773455" },
         { name: "Nkanu West", id: "e0c4c817-eb67-4f8c-beb5-6db1fbe42ac7" },
@@ -777,58 +530,13 @@ export const NigeriaLocations: TLocationInfo[] = [
       ],
       land_mass: "7,161 km²",
       universities: [
-        {
-          name: "University of Nigeria",
-          location: "Nsukka",
-          type: "Federal",
-        },
-        {
-          name: "Enugu State University of Science and Technology",
-          location: "Enugu",
-          type: "State",
-        },
+        { name: "University of Nigeria", location: "Nsukka", type: "Federal" },
+        { name: "Enugu State University of Science and Technology", location: "Enugu", type: "State" },
       ],
       airports: [
-        {
-          name: "Akanu Ibiam International Airport",
-          IATA_code: "ENU",
-          type: "International",
-        },
+        { name: "Akanu Ibiam International Airport", IATA_code: "ENU", type: "International" },
       ],
       geopolitical_zone: "South East",
-    },
-  },
-  {
-    state: {
-      name: "Federal Capital Territory",
-      capital: "Abuja",
-      id: "78d1ef1d-5f0f-475c-8033-217b60b2f739",
-      lgas: [
-        { name: "Bwari", id: "048a6559-5262-4cdc-adab-4498bc26dca8" },
-        { name: "Gwagwalada", id: "804360c5-e2de-4cd4-8d7e-950b0f91177e" },
-        { name: "Kuje", id: "399fcc34-c0f6-4be4-8806-c9ccd9f752ca" },
-        { name: "Kwali", id: "f9f0ce29-b7a5-4c09-acfb-4001e47bb557" },
-        {
-          name: "Municipal Area Council",
-          id: "d9cd074b-5bd1-4344-9485-1dadcee3e3ec",
-        },
-      ],
-      land_mass: "7,315 km²",
-      universities: [
-        {
-          name: "University of Abuja",
-          location: "Gwagwalada",
-          type: "Federal",
-        },
-      ],
-      airports: [
-        {
-          name: "Nnamdi Azikiwe International Airport",
-          IATA_code: "ABV",
-          type: "International",
-        },
-      ],
-      geopolitical_zone: "North Central",
     },
   },
   {
@@ -836,6 +544,8 @@ export const NigeriaLocations: TLocationInfo[] = [
       name: "Gombe",
       capital: "Gombe",
       id: "12c0ad85-dd81-4c67-b6f0-ab72a7b4b5db",
+      latitude: 10.2791,
+      longitude: 11.1731,
       lgas: [
         { name: "Balanga", id: "51a3495a-ab5d-4dbd-b64f-8323ff3f97e8" },
         { name: "Billiri", id: "0526bbaa-202d-4e6e-884d-80ee39f069ec" },
@@ -846,63 +556,36 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Kwami", id: "b71a06bf-bcf0-4abb-9078-61330f1c7fdd" },
         { name: "Nafada", id: "fdb1b628-638d-416a-ac0e-092221091491" },
         { name: "Shongom", id: "c936596a-5443-4c4a-9d10-9c8c1341e660" },
-        {
-          name: "Yamaltu/Deba",
-          id: "0743eaef-56fe-4b7a-9f14-ef90bd08075f",
-        },
+        { name: "Yamaltu/Deba", id: "0743eaef-56fe-4b7a-9f14-ef90bd08075f" },
       ],
       land_mass: "20,265 km²",
       universities: [
-        {
-          name: "Gombe State University",
-          location: "Gombe",
-          type: "State",
-        },
-        {
-          name: "Federal University of Kashere",
-          location: "Kashere",
-          type: "Federal",
-        },
+        { name: "Gombe State University", location: "Gombe", type: "State" },
+        { name: "Federal University of Kashere", location: "Kashere", type: "Federal" },
       ],
       airports: [
-        {
-          name: "Gombe Lawanti International Airport",
-          IATA_code: "GMO",
-          type: "Domestic",
-        },
+        { name: "Gombe Lawanti International Airport", IATA_code: "GMO", type: "Domestic" },
       ],
       geopolitical_zone: "North East",
     },
   },
+
   {
     state: {
       name: "Imo",
       capital: "Owerri",
+      latitude: 5.485,
+      longitude: 7.035,
       id: "9da83d7a-7739-4f72-a85d-a10ba92f5769",
       lgas: [
-        {
-          name: "Ahiazu Mbaise",
-          id: "a167ce41-e5cf-4803-a50e-458d47a5c02c",
-        },
+        { name: "Ahiazu Mbaise", id: "a167ce41-e5cf-4803-a50e-458d47a5c02c" },
         { name: "Ehime Mbano", id: "1adce4da-6a17-4fdc-8170-b5a7dcd9194f" },
         { name: "Ezinihitte", id: "0a351025-d647-42d5-92e9-e5c60ff9b9d2" },
-        {
-          name: "Ideato North",
-          id: "769495f9-818c-47b5-8931-f19ca7428029",
-        },
-        {
-          name: "Ideato South",
-          id: "e1df9517-1815-45ea-b2b4-af9eee1001b7",
-        },
-        {
-          name: "Ihitte/Uboma",
-          id: "dfad51a8-8e09-444f-a0dd-29b27ef2f997",
-        },
+        { name: "Ideato North", id: "769495f9-818c-47b5-8931-f19ca7428029" },
+        { name: "Ideato South", id: "e1df9517-1815-45ea-b2b4-af9eee1001b7" },
+        { name: "Ihitte/Uboma", id: "dfad51a8-8e09-444f-a0dd-29b27ef2f997" },
         { name: "Ikeduru", id: "58e5cbb9-4542-418a-964a-77801c259533" },
-        {
-          name: "Isiala Mbano",
-          id: "66689dd8-c892-4d8a-badc-28b30e1d47a8",
-        },
+        { name: "Isiala Mbano", id: "66689dd8-c892-4d8a-badc-28b30e1d47a8" },
         { name: "Isu", id: "e89254fd-09fa-4faa-b7e7-79abd8bb28ce" },
         { name: "Mbaitoli", id: "c8581535-6e1d-4d16-992a-d88294ea064d" },
         { name: "Ngor Okpala", id: "31a21f7b-05c6-43c7-ae40-46907c2a64d2" },
@@ -911,53 +594,34 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Nwangele", id: "ef6110d1-4a72-4d6a-a865-b1556a01c367" },
         { name: "Obowo", id: "958552a2-f27f-409a-8839-6a7f2fd68a26" },
         { name: "Oguta", id: "fd7e31a3-3543-478a-8b07-a917450c8c3a" },
-        {
-          name: "Ohaji/Egbema",
-          id: "f91500d8-ce8c-44b2-8862-87c227bfdbfb",
-        },
+        { name: "Ohaji/Egbema", id: "f91500d8-ce8c-44b2-8862-87c227bfdbfb" },
         { name: "Okigwe", id: "ab095010-1fa0-488a-b2c2-379f255ecfd0" },
         { name: "Orlu", id: "fb377233-2f9d-4159-af95-776038551882" },
         { name: "Orsu", id: "81695f70-dfa8-4ef1-a21c-fc69c1163e57" },
         { name: "Oru East", id: "66ee8db6-1f8d-497d-ad6b-447ec54a5bd1" },
         { name: "Oru West", id: "10b61d66-fd09-442f-b214-22f1ef1a2ea0" },
-        {
-          name: "Owerri Municipal",
-          id: "02c744ce-6572-4228-8d4e-3e64c63c4724",
-        },
-        {
-          name: "Owerri North",
-          id: "fff637b6-e110-405f-9cfa-3e632f21b289",
-        },
+        { name: "Owerri Municipal", id: "02c744ce-6572-4228-8d4e-3e64c63c4724" },
+        { name: "Owerri North", id: "fff637b6-e110-405f-9cfa-3e632f21b289" },
         { name: "Owerri West", id: "014fd952-1af5-427c-8eb0-e4199d3fd710" },
-        { name: "Unuimo", id: "6db1c914-21ed-4e10-831e-7a67c9f93c3b" },
+        { name: "Unuimo", id: "6db1c914-21ed-4e10-831e-7a67c9f93c3b" }
       ],
       land_mass: "5,530 km²",
       universities: [
-        {
-          name: "Imo State University",
-          location: "Owerri",
-          type: "State",
-        },
-        {
-          name: "Federal University of Technology, Owerri",
-          location: "Owerri",
-          type: "Federal",
-        },
+        { name: "Imo State University", location: "Owerri", type: "State" },
+        { name: "Federal University of Technology, Owerri", location: "Owerri", type: "Federal" }
       ],
       airports: [
-        {
-          name: "Sam Mbakwe Airport",
-          IATA_code: "QOW",
-          type: "Domestic",
-        },
+        { name: "Sam Mbakwe Airport", IATA_code: "QOW", type: "Domestic" }
       ],
-      geopolitical_zone: "South East",
-    },
+      geopolitical_zone: "South East"
+    }
   },
   {
     state: {
       name: "Jigawa",
       capital: "Dutse",
+      latitude: 12.1628,
+      longitude: 9.4936,
       id: "439c101a-44e4-48d2-928e-8552a7a0f996",
       lgas: [
         { name: "Babura", id: "a833fac3-41d1-4339-9644-6534e09921dd" },
@@ -979,42 +643,30 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Kiyawa", id: "2bea13b7-8c53-48b8-a749-ce99ca23084a" },
         { name: "Kaugama", id: "9ce73d5c-2a61-463d-8a6e-d6484651302a" },
         { name: "Maigatari", id: "bab5fa32-cc5b-4cac-8d40-238489f88dcc" },
-        {
-          name: "Malam Madori",
-          id: "7b6f6695-e5bf-42ba-83d0-e25833bd4c75",
-        },
+        { name: "Malam Madori", id: "7b6f6695-e5bf-42ba-83d0-e25833bd4c75" },
         { name: "Miga", id: "d3555439-0901-4497-aaf4-28b46a5534ac" },
         { name: "Ringim", id: "533edd89-7163-4d9e-afb3-193b5c24aba3" },
         { name: "Roni", id: "57ca3d8e-6442-433a-aad0-93a87740e47f" },
-        {
-          name: "Sule Tankarkar",
-          id: "7fa1628f-8800-4c9b-a413-9c11d5af5971",
-        },
+        { name: "Sule Tankarkar", id: "7fa1628f-8800-4c9b-a413-9c11d5af5971" },
         { name: "Taura", id: "35f43bf1-3d2b-4fb1-84d8-9f65647beec7" },
-        { name: "Yankwashi", id: "824e91cf-faae-4fd5-83af-79b50926af63" },
+        { name: "Yankwashi", id: "824e91cf-faae-4fd5-83af-79b50926af63" }
       ],
       land_mass: "23,154 km²",
       universities: [
-        {
-          name: "Federal University, Dutse",
-          location: "Dutse",
-          type: "Federal",
-        },
+        { name: "Federal University, Dutse", location: "Dutse", type: "Federal" }
       ],
       airports: [
-        {
-          name: "Dutse International Airport",
-          IATA_code: "DUT",
-          type: "Domestic",
-        },
+        { name: "Dutse International Airport", IATA_code: "DUT", type: "Domestic" }
       ],
-      geopolitical_zone: "North West",
-    },
+      geopolitical_zone: "North West"
+    }
   },
   {
     state: {
       name: "Kaduna",
       capital: "Kaduna",
+      latitude: 10.5105,
+      longitude: 7.4165,
       id: "54036a86-e8b3-4718-9a30-0252b4d63bb8",
       lgas: [
         { name: "Chikun", id: "bba3d11c-60d2-4748-85fe-2a98634fb8ff" },
@@ -1024,14 +676,8 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Jaba", id: "e2bef914-a3d4-4180-b554-d77ef9c55113" },
         { name: "Jema'a", id: "f710f238-87fe-4d20-bf77-2f877ca09be9" },
         { name: "Kachia", id: "dfa5eefe-9b3d-4cbd-a05a-1c8be470af4c" },
-        {
-          name: "Kaduna North",
-          id: "f72c9e3c-caa1-414f-9f9e-e4cc708b3ab7",
-        },
-        {
-          name: "Kaduna South",
-          id: "2030f741-ef12-4094-bfc2-6fee0d41b723",
-        },
+        { name: "Kaduna North", id: "f72c9e3c-caa1-414f-9f9e-e4cc708b3ab7" },
+        { name: "Kaduna South", id: "2030f741-ef12-4094-bfc2-6fee0d41b723" },
         { name: "Kagarko", id: "71213c1b-94fb-42d8-a0be-0982e4d08f68" },
         { name: "Kajuru", id: "358435d9-e73b-4d68-97f8-977389aecd29" },
         { name: "Kaura", id: "8acc090f-b934-4188-a879-95e7160a4388" },
@@ -1043,39 +689,26 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Sabon Gari", id: "00e5492c-3ea3-482d-9d46-fe4ef9cd7369" },
         { name: "Sanga", id: "a730565a-580b-4d3d-88ad-67511a946720" },
         { name: "Soba", id: "52a37ac0-218a-4d02-b57c-c04c91882baf" },
-        {
-          name: "Zangon Kataf",
-          id: "d8e6ee97-4339-4870-88c4-e85c9872ff9e",
-        },
-        { name: "Zaria", id: "e4f191e8-46c3-4bb2-8b0e-fea3779cdcfb" },
+        { name: "Zangon Kataf", id: "d8e6ee97-4339-4870-88c4-e85c9872ff9e" },
+        { name: "Zaria", id: "e4f191e8-46c3-4bb2-8b0e-fea3779cdcfb" }
       ],
       land_mass: "46,053 km²",
       universities: [
-        {
-          name: "Ahmadu Bello University",
-          location: "Zaria",
-          type: "Federal",
-        },
-        {
-          name: "Kaduna State University",
-          location: "Kaduna",
-          type: "State",
-        },
+        { name: "Ahmadu Bello University", location: "Zaria", type: "Federal" },
+        { name: "Kaduna State University", location: "Kaduna", type: "State" }
       ],
       airports: [
-        {
-          name: "Kaduna International Airport",
-          IATA_code: "KAD",
-          type: "International",
-        },
+        { name: "Kaduna International Airport", IATA_code: "KAD", type: "International" }
       ],
-      geopolitical_zone: "North West",
-    },
+      geopolitical_zone: "North West"
+    }
   },
   {
     state: {
       name: "Kano",
       capital: "Kano",
+      latitude: 11.9912,
+      longitude: 8.5167,
       id: "4111205d-adbf-4631-972c-044083d3b68d",
       lgas: [
         { name: "Albasu", id: "6806eca9-4f15-4911-b79a-15d5b15a2f9b" },
@@ -1085,31 +718,19 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Bunkure", id: "46d81915-bf94-40a0-baad-cfdfa59ea4f1" },
         { name: "Dala", id: "3a03a3ff-2c5f-48df-bf8d-f5faaa41fa8d" },
         { name: "Dambatta", id: "52764371-1e64-4ef9-8d13-6dc0e6f94ccf" },
-        {
-          name: "Dawakin Kudu",
-          id: "5baf8638-f7a2-46ff-965e-7c082ed10a82",
-        },
-        {
-          name: "Dawakin Tofa",
-          id: "14fa2196-a66a-4651-a29d-53f0c8a875be",
-        },
+        { name: "Dawakin Kudu", id: "5baf8638-f7a2-46ff-965e-7c082ed10a82" },
+        { name: "Dawakin Tofa", id: "14fa2196-a66a-4651-a29d-53f0c8a875be" },
         { name: "Doguwa", id: "e68f4974-1d34-46fe-9c52-c6e300326de4" },
         { name: "Fagge", id: "fc90ba60-8cd3-45f7-a7bf-504f1840bd1a" },
         { name: "Gabasawa", id: "9e346114-6389-421f-9400-ffed36e96c92" },
         { name: "Garko", id: "5affd969-2ffe-4abd-917c-6b1c1fedfdf2" },
-        {
-          name: "Garun Mallam",
-          id: "447fcc71-a0e0-42e8-aca4-482551c48a1b",
-        },
+        { name: "Garun Mallam", id: "447fcc71-a0e0-42e8-aca4-482551c48a1b" },
         { name: "Gaya", id: "40f50bee-3c54-4f9b-b6ca-65b5f41beaca" },
         { name: "Gezawa", id: "651eabd8-49d3-48ba-a33d-3d5b35c9913b" },
         { name: "Gwale", id: "26545eed-74ac-442c-b28e-7a8660aee801" },
         { name: "Gwarzo", id: "84bcf132-f4c8-4a62-a30f-e557a162e6c4" },
         { name: "Kabo", id: "159dc21a-70ca-4b79-bd0c-0b992ab5bbeb" },
-        {
-          name: "Kano Municipal",
-          id: "9f25fbcb-244f-4c67-992c-f5ec44328c56",
-        },
+        { name: "Kano Municipal", id: "9f25fbcb-244f-4c67-992c-f5ec44328c56" },
         { name: "Karaye", id: "6fb3614c-7fe6-45e1-8b7d-bc694b79a33f" },
         { name: "Kibiya", id: "b2d44be1-30a4-442a-84f4-1d68a63c1b02" },
         { name: "Kiru", id: "7c48badf-60c4-4e3b-b302-1336dca5e801" },
@@ -1132,35 +753,25 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Tudun Wada", id: "e21e56d8-09a2-4296-86c8-a2bbbcc42b2c" },
         { name: "Ungogo", id: "472ae1dd-d614-4e01-adaf-b1eff96404e7" },
         { name: "Warawa", id: "18a925bb-d064-450d-b706-64c1cb949477" },
-        { name: "Wudil", id: "0d28de09-d66c-4974-b023-bfea0ea16f15" },
+        { name: "Wudil", id: "0d28de09-d66c-4974-b023-bfea0ea16f15" }
       ],
       land_mass: "20,131 km²",
       universities: [
-        {
-          name: "Bayero University",
-          location: "Kano",
-          type: "Federal",
-        },
-        {
-          name: "Kano University of Science and Technology",
-          location: "Wudil",
-          type: "State",
-        },
+        { name: "Bayero University", location: "Kano", type: "Federal" },
+        { name: "Kano University of Science and Technology", location: "Wudil", type: "State" }
       ],
       airports: [
-        {
-          name: "Mallam Aminu Kano International Airport",
-          IATA_code: "KAN",
-          type: "International",
-        },
+        { name: "Mallam Aminu Kano International Airport", IATA_code: "KAN", type: "International" }
       ],
-      geopolitical_zone: "North West",
-    },
+      geopolitical_zone: "North West"
+    }
   },
   {
     state: {
       name: "Katsina",
       capital: "Katsina",
+      latitude: 12.9894,
+      longitude: 7.6000,
       id: "d0fbe1ce-908e-43e3-bb4f-0a37c24684cf",
       lgas: [
         { name: "Batagarawa", id: "7ac5378c-fdc4-46a6-b9d6-09ece2542553" },
@@ -1195,45 +806,32 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Sabuwa", id: "4d0956c2-7bfa-44ee-9276-7f59c9de50e9" },
         { name: "Safana", id: "93373464-5c20-4d85-a7d0-05fdba615bf7" },
         { name: "Sandamu", id: "4cbf8066-341f-44f7-a359-07efcda73f25" },
-        { name: "Zango", id: "1a47c02b-b78a-4304-9d5c-47255ae5e148" },
+        { name: "Zango", id: "1a47c02b-b78a-4304-9d5c-47255ae5e148" }
       ],
       land_mass: "24,192 km²",
       universities: [
-        {
-          name: "Umaru Musa Yar'adua University",
-          location: "Katsina",
-          type: "State",
-        },
-        {
-          name: "Federal University, Dutsin-Ma",
-          location: "Dutsin-Ma",
-          type: "Federal",
-        },
+        { name: "Umaru Musa Yar'adua University", location: "Katsina", type: "State" },
+        { name: "Federal University, Dutsin-Ma", location: "Dutsin-Ma", type: "Federal" }
       ],
       airports: [
-        {
-          name: "Katsina Airport",
-          IATA_code: "DKA",
-          type: "Domestic",
-        },
+        { name: "Katsina Airport", IATA_code: "DKA", type: "Domestic" }
       ],
-      geopolitical_zone: "North West",
-    },
+      geopolitical_zone: "North West"
+    }
   },
   {
     state: {
       name: "Kebbi",
       capital: "Birnin Kebbi",
+      latitude: 11.5167,
+      longitude: 4.1333,
       id: "4a87d34e-f9c7-4027-abb8-550591216eda",
       lgas: [
         { name: "Arewa Dandi", id: "6350789c-d24c-4b6c-b8a6-939a14e54f67" },
         { name: "Argungu", id: "3f98ec4d-5815-4a2a-8e9e-8572ce47bd3b" },
         { name: "Augie", id: "fb824b94-f9c7-4cfe-b95d-fb5a65059640" },
         { name: "Bagudo", id: "7dbf8aa0-8788-4e7a-9a87-a259dbf593b3" },
-        {
-          name: "Birnin Kebbi",
-          id: "5a5e8d1a-c123-4516-915f-d96a5ec66b97",
-        },
+        { name: "Birnin Kebbi", id: "5a5e8d1a-c123-4516-915f-d96a5ec66b97" },
         { name: "Bunza", id: "252a253e-82d3-4b83-b5ba-623b34fdaeea" },
         { name: "Dandi", id: "50c03b0f-8aae-4fae-a1a3-50fe88963b55" },
         { name: "Fakai", id: "00d4e01d-8530-402c-b673-206550f2b26e" },
@@ -1246,40 +844,27 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Sakaba", id: "032612ba-dfda-4ca5-a3c4-153eca52624f" },
         { name: "Shanga", id: "ee0cc4d2-ead8-4923-921d-117db8d08482" },
         { name: "Suru", id: "6915d7ba-c925-4db6-8151-900b94784c92" },
-        {
-          name: "Wasagu/Danko",
-          id: "59325b8e-6805-4b3c-b32a-0d80dcf35cb1",
-        },
+        { name: "Wasagu/Danko", id: "59325b8e-6805-4b3c-b32a-0d80dcf35cb1" },
         { name: "Yauri", id: "2ee839db-d99b-4099-b4b2-32e0f882532f" },
-        { name: "Zuru", id: "d337a652-2be5-4776-9b4e-7be4918045df" },
+        { name: "Zuru", id: "d337a652-2be5-4776-9b4e-7be4918045df" }
       ],
       land_mass: "36,800 km²",
       universities: [
-        {
-          name: "Kebbi State University of Science and Technology",
-          location: "Aliero",
-          type: "State",
-        },
-        {
-          name: "Federal University, Birnin Kebbi",
-          location: "Birnin Kebbi",
-          type: "Federal",
-        },
+        { name: "Kebbi State University of Science and Technology", location: "Aliero", type: "State" },
+        { name: "Federal University, Birnin Kebbi", location: "Birnin Kebbi", type: "Federal" }
       ],
       airports: [
-        {
-          name: "Sir Ahmadu Bello International Airport",
-          IATA_code: "ZTU",
-          type: "Domestic",
-        },
+        { name: "Sir Ahmadu Bello International Airport", IATA_code: "ZTU", type: "Domestic" }
       ],
-      geopolitical_zone: "North West",
-    },
+      geopolitical_zone: "North West"
+    }
   },
   {
     state: {
       name: "Kogi",
       capital: "Lokoja",
+      latitude: 7.8000,
+      longitude: 6.7333,
       id: "6849b121-08da-4a6a-875d-90d1c6bc2c0d",
       lgas: [
         { name: "Ajaokuta", id: "40163efb-c37a-4e1e-8d31-fb3771e48850" },
@@ -1288,48 +873,36 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Dekina", id: "e83f1b56-d552-4155-8caa-a116e76cc566" },
         { name: "Ibaji", id: "378424a7-726c-4ed4-9e01-ded934ce2074" },
         { name: "Idah", id: "5a27f706-e1f8-4d80-8f8b-a8c2c28a30b5" },
-        {
-          name: "Igalamela Odolu",
-          id: "5e9e6363-873f-4c69-a43b-592a7039cda0",
-        },
+        { name: "Igalamela Odolu", id: "5e9e6363-873f-4c69-a43b-592a7039cda0" },
         { name: "Ijumu", id: "f9c41fe6-47a3-4080-a334-520a932261fd" },
         { name: "Kabba/Bunu", id: "3504a433-b04e-4667-b6f7-0c77a8d162ce" },
         { name: "Kogi", id: "43a99a6d-2900-47fb-9d61-2f7910d807f6" },
         { name: "Lokoja", id: "609be049-fe45-4aca-8816-0381d85c63a4" },
         { name: "Mopa Muro", id: "60f2d305-cec0-4b24-b56c-839cf9882085" },
         { name: "Ofu", id: "642d15fd-d9dd-462f-9999-698ecff0b067" },
-        {
-          name: "Ogori/Magongo",
-          id: "74869b63-954d-407b-ab2a-c945518e0561",
-        },
+        { name: "Ogori/Magongo", id: "74869b63-954d-407b-ab2a-c945518e0561" },
         { name: "Okehi", id: "6482ebef-2e7a-4a10-9c8a-5d63f795e717" },
         { name: "Okene", id: "9b9576df-3c42-4361-87dd-55a27a6e5845" },
         { name: "Olamaboro", id: "e7781eac-6daf-42a5-8d3d-6ced851f916e" },
         { name: "Omala", id: "452f8840-b5b8-437f-9a30-65ea2ab6f7e4" },
         { name: "Yagba East", id: "466648c0-69be-4de4-9c98-5f090462b522" },
-        { name: "Yagba West", id: "f058ec6b-cbf2-4eaf-9d6f-a690efeb12f6" },
+        { name: "Yagba West", id: "f058ec6b-cbf2-4eaf-9d6f-a690efeb12f6" }
       ],
       land_mass: "29,833 km²",
       universities: [
-        {
-          name: "Kogi State University",
-          location: "Anyigba",
-          type: "State",
-        },
-        {
-          name: "Federal University, Lokoja",
-          location: "Lokoja",
-          type: "Federal",
-        },
+        { name: "Kogi State University", location: "Anyigba", type: "State" },
+        { name: "Federal University, Lokoja", location: "Lokoja", type: "Federal" }
       ],
       airports: [],
-      geopolitical_zone: "North Central",
-    },
+      geopolitical_zone: "North Central"
+    }
   },
   {
     state: {
       name: "Kwara",
       capital: "Ilorin",
+      latitude: 8.4833,
+      longitude: 4.5333,
       id: "73bcb016-7954-416c-bd6f-510c319f2cf5",
       lgas: [
         { name: "Baruten", id: "3e063f18-fba1-4e2b-9723-2f88410fa660" },
@@ -1337,10 +910,7 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Ekiti", id: "d629604f-5687-4068-a63c-16b376b3f78e" },
         { name: "Ifelodun", id: "5561ec1f-730a-4a0e-9f94-64e7ed0f1376" },
         { name: "Ilorin East", id: "ff2d5a1e-78e4-442e-9746-8ad6eab90eb4" },
-        {
-          name: "Ilorin South",
-          id: "4fe05378-4776-40de-b09d-fe3cfabcf13e",
-        },
+        { name: "Ilorin South", id: "4fe05378-4776-40de-b09d-fe3cfabcf13e" },
         { name: "Ilorin West", id: "680965ac-8b97-4c70-b12f-f28f75fcbe23" },
         { name: "Irepodun", id: "73700a75-b059-4e3f-8270-fde5c8b7b7bc" },
         { name: "Isin", id: "1a5ed709-5ee2-4b37-a63f-6959bf999d48" },
@@ -1349,102 +919,65 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Offa", id: "42d61012-9a59-44f8-8d52-f8ff7e384465" },
         { name: "Oke Ero", id: "21dbc433-6a9f-4a79-8070-3fbb30a96adb" },
         { name: "Oyun", id: "a37ddff6-f381-443f-80b6-84e7c9683380" },
-        { name: "Pategi", id: "e4808a09-12ed-4f64-9312-e06a66457b72" },
+        { name: "Pategi", id: "e4808a09-12ed-4f64-9312-e06a66457b72" }
       ],
       land_mass: "36,825 km²",
       universities: [
-        {
-          name: "University of Ilorin",
-          location: "Ilorin",
-          type: "Federal",
-        },
-        {
-          name: "Kwara State University",
-          location: "Malete",
-          type: "State",
-        },
+        { name: "University of Ilorin", location: "Ilorin", type: "Federal" },
+        { name: "Kwara State University", location: "Malete", type: "State" }
       ],
       airports: [
-        {
-          name: "Ilorin International Airport",
-          IATA_code: "ILR",
-          type: "Domestic",
-        },
+        { name: "Ilorin International Airport", IATA_code: "ILR", type: "Domestic" }
       ],
-      geopolitical_zone: "North Central",
-    },
+      geopolitical_zone: "North Central"
+    }
   },
   {
     state: {
       name: "Lagos",
       capital: "Ikeja",
+      latitude: 6.5244,
+      longitude: 3.3792,
       id: "234b4455-7ffa-4c09-9b51-1d046c6d8fad",
       lgas: [
-        {
-          name: "Ajeromi-Ifelodun",
-          id: "9a8f003e-4862-4558-8645-f299e192d907",
-        },
+        { name: "Agege", id: "048a6559-5262-4cdc-adab-4498bc26dca8" },
+        { name: "Ajeromi-Ifelodun", id: "9a8f003e-4862-4558-8645-f299e192d907" },
         { name: "Alimosho", id: "c66fe6ae-d995-478a-b5f4-c75910cacee3" },
-        {
-          name: "Amuwo-Odofin",
-          id: "5e139d70-3214-4779-b178-990a5115a268",
-        },
+        { name: "Amuwo-Odofin", id: "5e139d70-3214-4779-b178-990a5115a268" },
         { name: "Apapa", id: "05a3fa0d-56d6-43f4-aaef-8ca0ac0205de" },
         { name: "Badagry", id: "a9a67bc8-ee4d-40f1-8d6e-b589f9be9919" },
         { name: "Epe", id: "e3cabde0-d77d-48f0-bda6-62c9a0e3dc18" },
         { name: "Eti Osa", id: "925be7d8-974c-471a-b909-b0a25edff3b4" },
         { name: "Ibeju-Lekki", id: "832113be-b80b-4fa9-af48-16bc0f902250" },
-        {
-          name: "Ifako-Ijaiye",
-          id: "6b5ba4a9-bad6-43ca-b525-0b8ce87d2be5",
-        },
+        { name: "Ifako-Ijaiye", id: "6b5ba4a9-bad6-43ca-b525-0b8ce87d2be5" },
         { name: "Ikeja", id: "eda6bfed-7023-4488-a9cd-e02671f8d9a5" },
         { name: "Ikorodu", id: "22793d22-fa2d-4ef1-a6c3-070cda3e80bf" },
         { name: "Kosofe", id: "3a026f98-dfc6-40dd-9422-5b44e140d867" },
-        {
-          name: "Lagos Island",
-          id: "5b0268ef-a8c1-432a-85e0-bcff78d8a8ea",
-        },
-        {
-          name: "Lagos Mainland",
-          id: "10e386ef-fb31-4fef-a754-e804ef97407a",
-        },
+        { name: "Lagos Island", id: "5b0268ef-a8c1-432a-85e0-bcff78d8a8ea" },
+        { name: "Lagos Mainland", id: "10e386ef-fb31-4fef-a754-e804ef97407a" },
         { name: "Mushin", id: "b8488615-083d-4a61-8d0a-c8c5e423846b" },
         { name: "Ojo", id: "5734b025-6312-423b-9528-c959092ebed0" },
-        {
-          name: "Oshodi-Isolo",
-          id: "23968990-27f5-46c9-8246-0a3ed8215087",
-        },
+        { name: "Oshodi-Isolo", id: "23968990-27f5-46c9-8246-0a3ed8215087" },
         { name: "Shomolu", id: "08831a78-67c9-4806-9918-7454a18f002c" },
-        { name: "Surulere", id: "ffb3df7c-04a8-4845-b0e8-02990b3a8c55" },
+        { name: "Surulere", id: "ffb3df7c-04a8-4845-b0e8-02990b3a8c55" }
       ],
       land_mass: "1,171 km²",
       universities: [
-        {
-          name: "University of Lagos",
-          location: "Akoka",
-          type: "Federal",
-        },
-        {
-          name: "Lagos State University",
-          location: "Ojo",
-          type: "State",
-        },
+        { name: "University of Lagos", location: "Akoka", type: "Federal" },
+        { name: "Lagos State University", location: "Ojo", type: "State" }
       ],
       airports: [
-        {
-          name: "Murtala Muhammed International Airport",
-          IATA_code: "LOS",
-          type: "International",
-        },
+        { name: "Murtala Muhammed International Airport", IATA_code: "LOS", type: "International" }
       ],
-      geopolitical_zone: "South West",
-    },
+      geopolitical_zone: "South West"
+    }
   },
   {
     state: {
       name: "Nasarawa",
       capital: "Lafia",
+      latitude: 8.4907,
+      longitude: 8.5153,
       id: "a6264f7a-5eee-4935-8c40-2740900ad21a",
       lgas: [
         { name: "Awe", id: "8e33a11f-399b-45d6-9320-9cb621c70d58" },
@@ -1455,35 +988,26 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Kokona", id: "ec68575c-4359-423a-9c2e-1664281c49fd" },
         { name: "Lafia", id: "f4b5bba9-a3dd-4a98-997d-ef91699fff4d" },
         { name: "Nasarawa", id: "251a5cbc-5585-4877-8c5f-2e132201296a" },
-        {
-          name: "Nasarawa Egon",
-          id: "eb4be67f-2ee5-4cd8-a843-52e8c89ae5c0",
-        },
+        { name: "Nasarawa Egon", id: "eb4be67f-2ee5-4cd8-a843-52e8c89ae5c0" },
         { name: "Obi", id: "4bebf36b-c1f8-4f47-b0a5-e88b3bf56585" },
         { name: "Toto", id: "d619074d-1d12-43c8-9676-88551d8908c2" },
-        { name: "Wamba", id: "090dd0ce-6f49-4600-8b6c-7487664b37e2" },
+        { name: "Wamba", id: "090dd0ce-6f49-4600-8b6c-7487664b37e2" }
       ],
       land_mass: "27,117 km²",
       universities: [
-        {
-          name: "Nasarawa State University",
-          location: "Keffi",
-          type: "State",
-        },
-        {
-          name: "Federal University, Lafia",
-          location: "Lafia",
-          type: "Federal",
-        },
+        { name: "Nasarawa State University", location: "Keffi", type: "State" },
+        { name: "Federal University, Lafia", location: "Lafia", type: "Federal" }
       ],
       airports: [],
-      geopolitical_zone: "North Central",
-    },
+      geopolitical_zone: "North Central"
+    }
   },
   {
     state: {
       name: "Niger",
       capital: "Minna",
+      latitude: 9.6167,
+      longitude: 6.5500,
       id: "7fd3f634-d20a-48c3-9216-f29b700a6afc",
       lgas: [
         { name: "Agwara", id: "69ea8ce5-875a-4836-b758-c131f4276709" },
@@ -1509,600 +1033,445 @@ export const NigeriaLocations: TLocationInfo[] = [
         { name: "Shiroro", id: "9300b30b-b476-4d7b-8a50-f4bf4686ff5d" },
         { name: "Suleja", id: "1f20e7d1-beb9-42b0-9772-2e2bb3227c09" },
         { name: "Tafa", id: "4784680b-0d25-415e-ac36-49e1a0512c58" },
-        { name: "Wushishi", id: "7c07f82f-9dc9-4560-9d2d-d5b13df293d8" },
+        { name: "Wushishi", id: "7c07f82f-9dc9-4560-9d2d-d5b13df293d8" }
       ],
       land_mass: "76,363 km²",
       universities: [
-        {
-          name: "Federal University of Technology, Minna",
-          location: "Minna",
-          type: "Federal",
-        },
-        {
-          name: "Ibrahim Badamasi Babangida University",
-          location: "Lapai",
-          type: "State",
-        },
+        { name: "Federal University of Technology, Minna", location: "Minna", type: "Federal" },
+        { name: "Ibrahim Badamasi Babangida University", location: "Lapai", type: "State" }
       ],
       airports: [
-        {
-          name: "Minna Airport",
-          IATA_code: "MXJ",
-          type: "Domestic",
-        },
+        { name: "Minna Airport", IATA_code: "MXJ", type: "Domestic" }
       ],
-      geopolitical_zone: "North Central",
-    },
+      geopolitical_zone: "North Central"
+    }
   },
   {
     state: {
       name: "Ogun",
       capital: "Abeokuta",
+      latitude: 7.1604,
+      longitude: 3.3483,
       id: "20c94348-38ef-474c-968b-b740f225acd0",
       lgas: [
-        {
-          name: "Abeokuta South",
-          id: "63a7c9ea-b1db-45fd-ba4f-2997e1553256",
-        },
+        { name: "Abeokuta South", id: "63a7c9ea-b1db-45fd-ba4f-2997e1553256" },
         { name: "Ado-Odo/Ota", id: "d010c72f-e59e-4435-b75d-704e25a5f278" },
-        {
-          name: "Egbado North",
-          id: "26e8b168-654f-4132-b845-6fcee90cd517",
-        },
-        {
-          name: "Egbado South",
-          id: "5cea0732-cd4f-41fa-a6b1-490a4c0f5822",
-        },
+        { name: "Egbado North", id: "26e8b168-654f-4132-b845-6fcee90cd517" },
+        { name: "Egbado South", id: "5cea0732-cd4f-41fa-a6b1-490a4c0f5822" },
         { name: "Ewekoro", id: "05c346f2-4bd0-402f-83c5-7b62e0f4e7ee" },
         { name: "Ifo", id: "44e69106-f46c-463e-94b2-0f27963c9be8" },
         { name: "Ijebu East", id: "e388b3ea-ecdf-4266-bc1c-0ee7ec9e21fc" },
         { name: "Ijebu North", id: "5fc1c0a0-e2ed-41e5-a939-7d2c06476b7c" },
-        {
-          name: "Ijebu North East",
-          id: "1c987242-0ead-43bc-881b-64c5046d8c04",
-        },
+        { name: "Ijebu North East", id: "1c987242-0ead-43bc-881b-64c5046d8c04" },
         { name: "Ijebu Ode", id: "02be04cd-cb74-43d0-90a2-4c78b74a0a67" },
         { name: "Ikenne", id: "a3000c57-36a2-4967-930e-3bff35c0a2ad" },
         { name: "Imeko Afon", id: "93fdec93-1051-4fb7-853e-ee2018b61cd7" },
         { name: "Ipokia", id: "b7f849b1-ddbf-47ae-ad4c-9c1067359290" },
-        {
-          name: "Obafemi Owode",
-          id: "568aa0c5-cb39-48a9-ae7d-d25f4f7a1e43",
-        },
+        { name: "Obafemi Owode", id: "568aa0c5-cb39-48a9-ae7d-d25f4f7a1e43" },
         { name: "Odeda", id: "c05676d8-e8f5-46c6-8fd4-5fd7a6d1873b" },
         { name: "Odogbolu", id: "9eff41ca-fdbb-4eb2-8e4e-c57dad472f95" },
-        {
-          name: "Ogun Waterside",
-          id: "b9ea23f7-a59c-431d-8f66-ec00ccce0687",
-        },
+        { name: "Ogun Waterside", id: "b9ea23f7-a59c-431d-8f66-ec00ccce0687" },
         { name: "Remo North", id: "a6c9d030-a69f-43c6-b1db-9d2d2c6b6fc8" },
-        { name: "Shagamu", id: "8584ad2d-9479-4317-88c9-e08cbea330f1" },
+        { name: "Shagamu", id: "8584ad2d-9479-4317-88c9-e08cbea330f1" }
       ],
       land_mass: "16,762 km²",
       universities: [
-        {
-          name: "Federal University of Agriculture",
-          location: "Abeokuta",
-          type: "Federal",
-        },
-        {
-          name: "Olabisi Onabanjo University",
-          location: "Ago-Iwoye",
-          type: "State",
-        },
+        { name: "Federal University of Agriculture", location: "Abeokuta", type: "Federal" },
+        { name: "Olabisi Onabanjo University", location: "Ago-Iwoye", type: "State" }
       ],
       airports: [],
-      geopolitical_zone: "South West",
-    },
+      geopolitical_zone: "South West"
+    }
   },
   {
     state: {
       name: "Ondo",
       capital: "Akure",
+      latitude: 7.2500,
+      longitude: 5.2000,
       id: "5005b83c-3d44-460f-a979-884640da5d9d",
       lgas: [
-        {
-          name: "Akoko North-West",
-          id: "da4403cb-2b6e-4160-9f19-11874696e6aa",
-        },
-        {
-          name: "Akoko South-West",
-          id: "bcdbeda3-d09f-4da2-929d-c0916f1e90ba",
-        },
-        {
-          name: "Akoko South-East",
-          id: "961c6a79-fd7c-4947-96cc-696cff81f0de",
-        },
+        { name: "Akoko North-West", id: "da4403cb-2b6e-4160-9f19-11874696e6aa" },
+        { name: "Akoko South-West", id: "bcdbeda3-d09f-4da2-929d-c0916f1e90ba" },
+        { name: "Akoko South-East", id: "961c6a79-fd7c-4947-96cc-696cff81f0de" },
         { name: "Akure North", id: "98a2d15a-ff8c-46bb-8d8e-8c7e6ab96b0c" },
         { name: "Akure South", id: "1dcd3974-ea26-4f09-9669-2088d0ac9506" },
         { name: "Ese Odo", id: "e3986b66-1ff4-4f86-9d2c-3566c13bb9f2" },
         { name: "Idanre", id: "5abce880-52c0-4f02-ace7-b6c55b8d48d0" },
         { name: "Ifedore", id: "843e2fa5-5589-4098-b7f2-2492373c590e" },
         { name: "Ilaje", id: "f535e586-eca8-4861-bd7b-3493dc00e0ee" },
-        {
-          name: "Ile Oluji/Okeigbo",
-          id: "0eceba8f-69d9-432c-8b16-405c264e307b",
-        },
+        { name: "Ile Oluji/Okeigbo", id: "0eceba8f-69d9-432c-8b16-405c264e307b" },
         { name: "Irele", id: "1b2a1aec-64b9-47d9-856d-3a1367307338" },
         { name: "Odigbo", id: "7d3b82c5-477a-48f7-9e6a-17266225b63d" },
         { name: "Okitipupa", id: "89ca4d78-5ca9-4829-b992-7e755c4687b6" },
         { name: "Ondo East", id: "c873fdec-001b-4c08-b197-8bfc1ac151df" },
         { name: "Ondo West", id: "76c584fb-a836-49e4-8fc7-ec924fc65437" },
         { name: "Ose", id: "636c8bd6-73c7-4f04-a5e0-61323c91a10a" },
-        { name: "Owo", id: "d882738a-7470-492e-a7d7-3e90ccedc417" },
+        { name: "Owo", id: "d882738a-7470-492e-a7d7-3e90ccedc417" }
       ],
       land_mass: "15,500 km²",
       universities: [
-        {
-          name: "Federal University of Technology, Akure",
-          location: "Akure",
-          type: "Federal",
-        },
-        {
-          name: "Ondo State University of Science and Technology",
-          location: "Okitipupa",
-          type: "State",
-        },
+        { name: "Federal University of Technology, Akure", location: "Akure", type: "Federal" },
+        { name: "Ondo State University of Science and Technology", location: "Okitipupa", type: "State" }
       ],
       airports: [
-        {
-          name: "Akure Airport",
-          IATA_code: "AKR",
-          type: "Domestic",
-        },
+        { name: "Akure Airport", IATA_code: "AKR", type: "Domestic" }
       ],
-      geopolitical_zone: "South West",
-    },
+      geopolitical_zone: "South West"
+    }
   },
+
+
   {
     state: {
       name: "Osun",
       capital: "Osogbo",
-      id: "25c3021a-0e43-417e-9928-eb460f085c07",
+      latitude: 7.5629,
+      longitude: 4.5200,
+      id: "67329d67-27b9-4d6d-8e6b-734892c556da",
       lgas: [
-        {
-          name: "Atakunmosa West",
-          id: "c2dfa0dc-30c1-43b8-9e15-efb1efe8951f",
-        },
-        { name: "Aiyedaade", id: "d2bdf63d-05a4-4e20-8295-fbe12b5d77b8" },
-        { name: "Aiyedire", id: "1aa899da-6578-44ef-ade0-bfa4de8ac1eb" },
-        { name: "Boluwaduro", id: "72b35462-71f0-45a3-8e8a-3c6ab92ad5dc" },
-        { name: "Boripe", id: "c2666f54-1889-475e-88c5-352f55d3200d" },
-        { name: "Ede North", id: "2a85ca40-17f3-4c91-9069-c1a0f1d2431a" },
-        { name: "Ede South", id: "525fc5ee-0694-4bdd-bfb9-14e859734a2d" },
-        { name: "Ife Central", id: "2c189c8c-89f2-47c5-bc09-301763f27663" },
-        { name: "Ife East", id: "0d89611b-d6c4-4b30-a4d9-deb94f2639df" },
-        { name: "Ife North", id: "80da1aca-8c34-46e4-bffd-f9e374aebe2a" },
-        { name: "Ife South", id: "699a9cc1-200c-4c5c-8210-a5f4e1105f42" },
-        { name: "Egbedore", id: "162b8a35-2e6d-4869-bb06-c782e5269bf2" },
-        { name: "Ejigbo", id: "b89429dc-5438-435d-b8ab-f44d70cff0b7" },
-        { name: "Ifedayo", id: "69483581-acdb-48cb-9ae2-104cb38a53bf" },
-        { name: "Ifelodun", id: "7646e15e-f468-4884-9f93-8158a0919e10" },
-        { name: "Ila", id: "84d8fa74-67d3-4872-a732-30631e6f9657" },
-        { name: "Ilesa East", id: "ecfe9178-cc77-4330-bf2e-59bb36ed360f" },
-        { name: "Ilesa West", id: "a68b6cf5-e948-41b2-a34b-e3e42e25b94a" },
-        { name: "Irepodun", id: "8eb1f2a2-261f-40b2-9eb0-b98d006a403d" },
-        { name: "Irewole", id: "266c04e4-7071-4bd7-aeec-1ecda70b2bcc" },
-        { name: "Isokan", id: "17ce02c0-8440-4622-afeb-8553976b6258" },
-        { name: "Iwo", id: "119e3da7-be0a-423b-92cd-fbff29f8bf89" },
-        { name: "Obokun", id: "8095fcdd-f590-4e02-b615-25a130990510" },
-        { name: "Odo Otin", id: "31afa1f0-da4b-4834-bd7c-c931b60e5816" },
-        { name: "Ola Oluwa", id: "3ee9e376-fbd1-4bef-ae71-4673ab8fb395" },
-        { name: "Olorunda", id: "16d912a6-51f6-44b9-8eb5-ef23fc7e04fc" },
-        { name: "Oriade", id: "79619cfe-9e07-4c7a-9c80-dc0add07a9ed" },
-        { name: "Orolu", id: "c29aa04e-7888-446c-a478-16d3c7be53c0" },
-        { name: "Osogbo", id: "fea3a413-37dc-4605-b561-f2b6d6a996c8" },
+        { name: "Atakunmosa East", id: "4e183427-4f6c-4861-9c3a-23450912384a" },
+        { name: "Atakunmosa West", id: "9a12c82e-984a-472d-b03a-736291bc3451" },
+        { name: "Aiyedaade", id: "bc823719-0294-473d-82ba-9283746cde10" },
+        { name: "Aiyedire", id: "de928374-9182-473d-a827-1029384756bc" },
+        { name: "Boluwaduro", id: "ef019283-a928-473d-bc82-938475610293" },
+        { name: "Boripe", id: "ab928374-1029-473d-9283-bcde10293847" },
+        { name: "Ede North", id: "cd928374-bc82-473d-a928-1029384756ef" },
+        { name: "Ede South", id: "ef928374-0192-473d-bc82-9384756102ab" },
+        { name: "Egbedore", id: "gh928374-1029-473d-9283-bcde10293847" },
+        { name: "Ejigbo", id: "ij928374-bc82-473d-a928-1029384756cd" },
+        { name: "Ife Central", id: "kl928374-0192-473d-bc82-9384756102ef" },
+        { name: "Ife East", id: "mn928374-1029-473d-9283-bcde10293847" },
+        { name: "Ife North", id: "op928374-bc82-473d-a928-1029384756gh" },
+        { name: "Ife South", id: "qr928374-0192-473d-bc82-9384756102ij" },
+        { name: "Ifedayo", id: "st928374-1029-473d-9283-bcde10293847" },
+        { name: "Ifelodun", id: "uv928374-bc82-473d-a928-1029384756kl" },
+        { name: "Ila", id: "wx928374-0192-473d-bc82-9384756102mn" },
+        { name: "Ilesa East", id: "yz928374-1029-473d-9283-bcde10293847" },
+        { name: "Ilesa West", id: "ab123456-bc82-473d-a928-1029384756op" },
+        { name: "Irepodun", id: "cd123456-0192-473d-bc82-9384756102qr" },
+        { name: "Irewole", id: "ef123456-1029-473d-9283-bcde10293847" },
+        { name: "Isokan", id: "gh123456-bc82-473d-a928-1029384756st" },
+        { name: "Iwo", id: "ij123456-0192-473d-bc82-9384756102uv" },
+        { name: "Obokun", id: "kl123456-1029-473d-9283-bcde10293847" },
+        { name: "Odo Otin", id: "mn123456-bc82-473d-a928-1029384756wx" },
+        { name: "Ola Oluwa", id: "op123456-0192-473d-bc82-9384756102yz" },
+        { name: "Olorunda", id: "qr123456-1029-473d-9283-bcde10293847" },
+        { name: "Oriade", id: "st123456-bc82-473d-a928-1029384756ab" },
+        { name: "Orolu", id: "uv123456-0192-473d-bc82-9384756102cd" },
+        { name: "Osogbo", id: "wx123456-1029-473d-9283-bcde10293847" }
       ],
       land_mass: "9,251 km²",
       universities: [
-        {
-          name: "Obafemi Awolowo University",
-          location: "Ile-Ife",
-          type: "Federal",
-        },
-        {
-          name: "Osun State University",
-          location: "Oshogbo",
-          type: "State",
-        },
+        { name: "Obafemi Awolowo University", location: "Ile-Ife", type: "Federal" },
+        { name: "Osun State University", location: "Osogbo", type: "State" }
       ],
       airports: [],
-      geopolitical_zone: "South West",
-    },
+      geopolitical_zone: "South West"
+    }
   },
   {
     state: {
       name: "Oyo",
       capital: "Ibadan",
-      id: "cf00740f-b3c5-4676-b8c5-db7a7f328d59",
+      latitude: 8.1196,
+      longitude: 3.4196,
+      id: "312c9d67-27b9-4d6d-8e6b-734892c556da",
       lgas: [
-        { name: "Akinyele", id: "d567ee9d-5e4e-4574-85d0-b3be8cb7575a" },
-        { name: "Atiba", id: "a3f9c8cf-c73b-4030-807d-277132cfc5cf" },
-        { name: "Atisbo", id: "4a0fd361-8e69-4325-a4ff-a68ae5105dcb" },
-        { name: "Egbeda", id: "615f80d2-54b4-4376-8aba-d76c17d44c90" },
-        {
-          name: "Ibadan North",
-          id: "9a4bab38-3e6d-406c-a049-9842901f1460",
-        },
-        {
-          name: "Ibadan North-East",
-          id: "2a5de3db-d582-435a-80d0-b3a73252b204",
-        },
-        {
-          name: "Ibadan North-West",
-          id: "52ed4531-02cc-4a82-91b4-d538ec7ec437",
-        },
-        {
-          name: "Ibadan South-East",
-          id: "9af55b19-f9c8-43dc-9e42-20d22d64bc2c",
-        },
-        {
-          name: "Ibadan South-West",
-          id: "423c2a4a-1fbd-4fab-9cd5-f3a1679b1725",
-        },
-        {
-          name: "Ibarapa Central",
-          id: "7a051b22-86ce-455a-a472-8f76a9428588",
-        },
-        {
-          name: "Ibarapa East",
-          id: "a042dae3-868e-49b0-845a-dc1ccb031478",
-        },
-        {
-          name: "Ibarapa North",
-          id: "bfe394b1-4ff8-46e9-84a3-a01c203324e7",
-        },
-        { name: "Ido", id: "c727610a-9f52-4b7e-b09b-f8a2133b5fab" },
-        { name: "Irepo", id: "bf54ce0b-e30f-4851-b1c6-75529691823e" },
-        { name: "Iseyin", id: "e7a2c882-5c01-4622-b462-35f78da3a997" },
-        { name: "Itesiwaju", id: "5836445a-44c3-4aad-b2e6-258177f59eb6" },
-        { name: "Iwajowa", id: "f1205c6e-6d38-4db3-be1f-cc6be5be478c" },
-        { name: "Kajola", id: "7d2cd33c-fdee-4ebc-9c3e-a24727b13347" },
-        { name: "Lagelu", id: "72a7a68e-3e1b-421c-9eb4-9d10d0b8d5f0" },
-        {
-          name: "Ogbomosho North",
-          id: "ca0e9e4b-ceca-4f31-99ea-62f3a9533774",
-        },
-        {
-          name: "Ogbomosho South",
-          id: "502be42d-8ebf-48eb-afdd-65b02c0e725d",
-        },
-        { name: "Ogo Oluwa", id: "3b59b711-0ecc-4c9c-bcf9-7ee5950e5e60" },
-        { name: "Olorunsogo", id: "04878af0-5750-483d-9446-b5a7e50dbc5b" },
-        { name: "Oluyole", id: "9ea3646f-a05f-45e3-9079-f64654785fcb" },
-        { name: "Ona Ara", id: "7908235f-368d-4d5b-abd1-17bed5b697cb" },
-        { name: "Orelope", id: "28a5674a-2d74-450d-8224-f0f444a5d886" },
-        { name: "Ori Ire", id: "0837c031-e27f-4b5a-ad7c-4deadcf6669e" },
-        { name: "Oyo", id: "f5b43bbd-9a38-4c29-8901-2d7f2d1ea102" },
-        { name: "Oyo East", id: "ca771090-4884-4bf9-9041-2f03f807cc27" },
-        { name: "Saki East", id: "9738e1df-8ac0-4c79-93fc-8ab8b22d008d" },
-        { name: "Saki West", id: "ed1691bb-8e4b-4272-a91e-8dfd97cfe18b" },
-        { name: "Surulere", id: "e0711c7f-ab4a-47b8-ad08-6b400b68bd5c" },
+        { name: "Afijio", id: "af128374-bc82-473d-a928-1029384756ab" },
+        { name: "Akinyele", id: "ak128374-0192-473d-bc82-9384756102cd" },
+        { name: "Atiba", id: "at128374-1029-473d-9283-bcde10293847" },
+        { name: "Atisbo", id: "as128374-bc82-473d-a928-1029384756ef" },
+        { name: "Egbeda", id: "eg128374-0192-473d-bc82-9384756102gh" },
+        { name: "Ibadan North", id: "in128374-1029-473d-9283-bcde10293847" },
+        { name: "Ibadan North-East", id: "ine128374-bc82-473d-a928-1029384756ij" },
+        { name: "Ibadan North-West", id: "inw128374-0192-473d-bc82-9384756102kl" },
+        { name: "Ibadan South-East", id: "ise128374-1029-473d-9283-bcde10293847" },
+        { name: "Ibadan South-West", id: "isw128374-bc82-473d-a928-1029384756mn" },
+        { name: "Ibarapa Central", id: "ic128374-0192-473d-bc82-9384756102op" },
+        { name: "Ibarapa East", id: "ie128374-1029-473d-9283-bcde10293847" },
+        { name: "Ibarapa North", id: "in128374-bc82-473d-a928-1029384756qr" },
+        { name: "Ido", id: "id128374-0192-473d-bc82-9384756102st" },
+        { name: "Irepo", id: "ir128374-1029-473d-9283-bcde10293847" },
+        { name: "Iseyin", id: "is128374-bc82-473d-a928-1029384756uv" },
+        { name: "Itesiwaju", id: "it128374-0192-473d-bc82-9384756102wx" },
+        { name: "Iwajowa", id: "iw128374-1029-473d-9283-bcde10293847" },
+        { name: "Kajola", id: "ka128374-bc82-473d-a928-1029384756yz" },
+        { name: "Lagelu", id: "la128374-0192-473d-bc82-9384756102ab" },
+        { name: "Ogbomosho North", id: "on128374-1029-473d-9283-bcde10293847" },
+        { name: "Ogbomosho South", id: "os128374-bc82-473d-a928-1029384756cd" },
+        { name: "Ogo Oluwa", id: "oo128374-0192-473d-bc82-9384756102ef" },
+        { name: "Olorunsogo", id: "ol128374-1029-473d-9283-bcde10293847" },
+        { name: "Oluyole", id: "oy128374-bc82-473d-a928-1029384756gh" },
+        { name: "Ona Ara", id: "oa128374-0192-473d-bc82-9384756102ij" },
+        { name: "Orelope", id: "or128374-1029-473d-9283-bcde10293847" },
+        { name: "Ori Ire", id: "oi128374-bc82-473d-a928-1029384756kl" },
+        { name: "Oyo East", id: "oe128374-0192-473d-bc82-9384756102mn" },
+        { name: "Oyo West", id: "ow128374-1029-473d-9283-bcde10293847" },
+        { name: "Saki East", id: "se128374-bc82-473d-a928-1029384756op" },
+        { name: "Saki West", id: "sw128374-0192-473d-bc82-9384756102qr" },
+        { name: "Surulere", id: "su128374-1029-473d-9283-bcde10293847" }
       ],
       land_mass: "28,454 km²",
       universities: [
-        {
-          name: "University of Ibadan",
-          location: "Ibadan",
-          type: "Federal",
-        },
-        {
-          name: "Ladoke Akintola University of Technology",
-          location: "Ogbomoso",
-          type: "State",
-        },
+        { name: "University of Ibadan", location: "Ibadan", type: "Federal" },
+        { name: "Ladoke Akintola University of Technology", location: "Ogbomosho", type: "State" }
       ],
       airports: [
-        {
-          name: "Ibadan Airport",
-          IATA_code: "IBA",
-          type: "Domestic",
-        },
+        { name: "Ibadan Airport", IATA_code: "IBA", type: "Domestic" }
       ],
-      geopolitical_zone: "South West",
-    },
+      geopolitical_zone: "South West"
+    }
   },
   {
     state: {
       name: "Plateau",
       capital: "Jos",
-      id: "b4b111c3-8688-4fac-93a4-65b1c43673bb",
+      latitude: 9.2182,
+      longitude: 9.5179,
+      id: "412c9d67-27b9-4d6d-8e6b-734892c556da",
       lgas: [
-        { name: "Barkin Ladi", id: "de76a769-2414-457f-b425-d967717abea2" },
-        { name: "Bassa", id: "0adbd2df-2654-4845-b036-ff05ad2ba770" },
-        { name: "Jos East", id: "83a0e8ce-c624-4739-8df9-95d30380c894" },
-        { name: "Jos North", id: "452becff-ba6b-4072-ba1e-bb8ce75cc88c" },
-        { name: "Jos South", id: "b128b78f-6eb8-4cdd-b7b6-412bb44d311c" },
-        { name: "Kanam", id: "94f610f5-c9a6-4ecf-8996-fae032982110" },
-        { name: "Kanke", id: "de9f6be5-26d2-4eb8-b0c1-7b8ac653ee27" },
-        {
-          name: "Langtang South",
-          id: "46a75765-e359-474a-b7cb-a938a23ebc63",
-        },
-        {
-          name: "Langtang North",
-          id: "406ee386-33bf-4146-8ad6-ce9a3a61f9ac",
-        },
-        { name: "Mangu", id: "365ccf2c-3e42-411f-af90-ed3bad3f8b18" },
-        { name: "Mikang", id: "91f5f0d8-c549-49c6-9299-9e0679a0fda6" },
-        { name: "Pankshin", id: "40bfa4c5-1d50-41ec-92e6-a3050a0ef8cc" },
-        { name: "Qua'an Pan", id: "028adb0f-b9b3-4760-871f-b4da00b0c866" },
-        { name: "Riyom", id: "42c6f6d4-ce9c-4543-943c-f17ef907d0c8" },
-        { name: "Shendam", id: "4314c679-d18a-4686-b709-583991731197" },
-        { name: "Wase", id: "e916d45f-51c5-4d61-a162-66cde6644ca9" },
+        { name: "Barkin Ladi", id: "bl128374-bc82-473d-a928-1029384756ab" },
+        { name: "Bassa", id: "ba128374-0192-473d-bc82-9384756102cd" },
+        { name: "Bokkos", id: "bo128374-1029-473d-9283-bcde10293847" },
+        { name: "Jos East", id: "je128374-bc82-473d-a928-1029384756ef" },
+        { name: "Jos North", id: "jn128374-0192-473d-bc82-9384756102gh" },
+        { name: "Jos South", id: "js128374-1029-473d-9283-bcde10293847" },
+        { name: "Kanam", id: "ka128374-bc82-473d-a928-1029384756ij" },
+        { name: "Kanke", id: "kk128374-0192-473d-bc82-9384756102kl" },
+        { name: "Langtang North", id: "ln128374-1029-473d-9283-bcde10293847" },
+        { name: "Langtang South", id: "ls128374-bc82-473d-a928-1029384756mn" },
+        { name: "Mangu", id: "ma128374-0192-473d-bc82-9384756102op" },
+        { name: "Mikang", id: "mi128374-1029-473d-9283-bcde10293847" },
+        { name: "Pankshin", id: "pa128374-bc82-473d-a928-1029384756qr" },
+        { name: "Qua'an Pan", id: "qp128374-0192-473d-bc82-9384756102st" },
+        { name: "Riyom", id: "ri128374-1029-473d-9283-bcde10293847" },
+        { name: "Shendam", id: "sh128374-bc82-473d-a928-1029384756uv" },
+        { name: "Wase", id: "wa128374-0192-473d-bc82-9384756102wx" }
       ],
       land_mass: "30,913 km²",
       universities: [
-        {
-          name: "University of Jos",
-          location: "Jos",
-          type: "Federal",
-        },
-        {
-          name: "Plateau State University",
-          location: "Bokkos",
-          type: "State",
-        },
+        { name: "University of Jos", location: "Jos", type: "Federal" },
+        { name: "Plateau State University", location: "Bokkos", type: "State" }
       ],
       airports: [
-        {
-          name: "Yakubu Gowon Airport",
-          IATA_code: "JOS",
-          type: "Domestic",
-        },
+        { name: "Yakubu Gowon Airport", IATA_code: "JOS", type: "Domestic" }
       ],
-      geopolitical_zone: "North Central",
-    },
+      geopolitical_zone: "North Central"
+    }
   },
   {
     state: {
       name: "Rivers",
       capital: "Port Harcourt",
-      id: "977bcb30-a6bc-4e63-9590-6c5ed66b8274",
+      latitude: 4.8156,
+      longitude: 7.0498,
+      id: "512c9d67-27b9-4d6d-8e6b-734892c556da",
       lgas: [
-        { name: "Ahoada East", id: "3f32b0c4-7917-4a38-84ec-a3123dd3b304" },
-        { name: "Ahoada West", id: "9da93f2e-c8dc-4f99-9a3e-005377cc6cf3" },
-        { name: "Akuku-Toru", id: "9295fde6-d9be-4280-b805-6de5b4504db7" },
-        { name: "Andoni", id: "a90c99ba-4bb9-4f04-b1cb-4f6c8aa1f03d" },
-        { name: "Asari-Toru", id: "3b7617d8-409f-437b-9564-1a3a2c08a1b1" },
-        { name: "Bonny", id: "6b43dc80-02bd-49c1-a1ad-e30f2120e687" },
-        { name: "Degema", id: "00fdd4c2-4e0e-4590-b87b-6d3d7920745f" },
-        { name: "Eleme", id: "aeb3632b-6800-413c-9a17-d3c85944e385" },
-        { name: "Emuoha", id: "f4bca60d-45e7-4202-becb-caded459c3e3" },
-        { name: "Etche", id: "0d882157-a174-4223-82ba-b2d42e9a2a2b" },
-        { name: "Gokana", id: "0447031b-b789-4a8f-a84a-c1c768952f80" },
-        { name: "Ikwerre", id: "b9bfae1b-a049-4531-8d19-33b34a0427b8" },
-        { name: "Khana", id: "96e577de-6f16-489b-b1c9-c23fb30b73a4" },
-        { name: "Obio/Akpor", id: "16dc23aa-eabc-4a53-9fbe-cc4a2aab716a" },
-        {
-          name: "Ogba/Egbema/Ndoni",
-          id: "9755bea3-b62a-4b6d-a8cd-39c53afa9168",
-        },
-        { name: "Ogu/Bolo", id: "2ce96e28-3be9-4957-a536-eb5ba9bd3beb" },
-        { name: "Okrika", id: "10957bdc-fc42-4ca2-8c3a-d54bfc70674f" },
-        { name: "Omuma", id: "7da004a4-faa5-4da8-8c64-77c1657c27db" },
-        { name: "Opobo/Nkoro", id: "d4170f28-bacb-4708-9524-51c2ecd43ef5" },
-        { name: "Oyigbo", id: "77da1826-94dc-4ee5-9565-748d5f6242cc" },
-        {
-          name: "Port Harcourt",
-          id: "07e40bb8-0b59-46d2-9eea-5b7ef1ba5e39",
-        },
-        { name: "Tai", id: "fbd9ceeb-af1c-4013-86fb-a90a16a50e12" },
+        { name: "Abua/Odual", id: "ao128374-bc82-473d-a928-1029384756ab" },
+        { name: "Ahoada East", id: "ae128374-0192-473d-bc82-9384756102cd" },
+        { name: "Ahoada West", id: "aw128374-1029-473d-9283-bcde10293847" },
+        { name: "Akuku-Toru", id: "at128374-bc82-473d-a928-1029384756ef" },
+        { name: "Andoni", id: "an128374-0192-473d-bc82-9384756102gh" },
+        { name: "Asari-Toru", id: "ast128374-1029-473d-9283-bcde10293847" },
+        { name: "Bonny", id: "bo128374-bc82-473d-a928-1029384756ij" },
+        { name: "Degema", id: "de128374-0192-473d-bc82-9384756102kl" },
+        { name: "Eleme", id: "el128374-1029-473d-9283-bcde10293847" },
+        { name: "Emuoha", id: "em128374-bc82-473d-a928-1029384756mn" },
+        { name: "Etche", id: "et128374-0192-473d-bc82-9384756102op" },
+        { name: "Gokana", id: "go128374-1029-473d-9283-bcde10293847" },
+        { name: "Ikwerre", id: "ik128374-bc82-473d-a928-1029384756qr" },
+        { name: "Khana", id: "kh128374-0192-473d-bc82-9384756102st" },
+        { name: "Obio/Akpor", id: "oa128374-1029-473d-9283-bcde10293847" },
+        { name: "Ogba/Egbema/Ndoni", id: "oen128374-bc82-473d-a928-1029384756uv" },
+        { name: "Ogu/Bolo", id: "ob128374-0192-473d-bc82-9384756102wx" },
+        { name: "Okrika", id: "ok128374-1029-473d-9283-bcde10293847" },
+        { name: "Omuma", id: "om128374-bc82-473d-a928-1029384756yz" },
+        { name: "Opobo/Nkoro", id: "on128374-0192-473d-bc82-9384756102ab" },
+        { name: "Oyigbo", id: "oy128374-1029-473d-9283-bcde10293847" },
+        { name: "Port Harcourt", id: "ph128374-bc82-473d-a928-1029384756cd" },
+        { name: "Tai", id: "ta128374-0192-473d-bc82-9384756102ef" }
       ],
       land_mass: "11,077 km²",
       universities: [
-        {
-          name: "University of Port Harcourt",
-          location: "Port Harcourt",
-          type: "Federal",
-        },
-        {
-          name: "Rivers State University",
-          location: "Port Harcourt",
-          type: "State",
-        },
+        { name: "University of Port Harcourt", location: "Port Harcourt", type: "Federal" },
+        { name: "Rivers State University", location: "Port Harcourt", type: "State" }
       ],
       airports: [
-        {
-          name: "Port Harcourt International Airport",
-          IATA_code: "PHC",
-          type: "International",
-        },
+        { name: "Port Harcourt International Airport", IATA_code: "PHC", type: "International" }
       ],
-      geopolitical_zone: "South South",
-    },
+      geopolitical_zone: "South South"
+    }
   },
   {
     state: {
       name: "Sokoto",
       capital: "Sokoto",
-      id: "c659da77-b862-45d2-a2aa-04381cabce57",
+      latitude: 13.0671,
+      longitude: 5.2390,
+      id: "612c9d67-27b9-4d6d-8e6b-734892c556da",
       lgas: [
-        { name: "Bodinga", id: "9b1b4d2b-3128-4fa0-84c0-8d224b44bb17" },
-        { name: "Dange Shuni", id: "71fc58f1-415d-460d-93d5-ca2756e518d0" },
-        { name: "Gada", id: "8973e36a-d03c-482e-a92a-63dd315c1eb7" },
-        { name: "Goronyo", id: "6e6b4a75-8ea1-46e1-b2cb-b7c2b1206be5" },
-        { name: "Gudu", id: "0f418d0b-6895-42ed-ac76-68e0a56c0e35" },
-        { name: "Gwadabawa", id: "71925271-b280-4a49-a26e-08a5d5b276b6" },
-        { name: "Illela", id: "80e1497e-6066-49b6-91f2-c17caf41891e" },
-        { name: "Isa", id: "9478aec7-d78c-4db0-b1b5-65bb12b61710" },
-        { name: "Kebbe", id: "af8b3a12-790b-462e-ae00-3618ab4cdb4f" },
-        { name: "Kware", id: "eb7f6ce0-fb6f-4a09-9ed2-cc79a02a8422" },
-        { name: "Rabah", id: "6058a9c7-5ce0-46aa-8884-786e2be7a632" },
-        { name: "Sabon Birni", id: "1a272ec2-e621-495d-9d83-bd98353d3ee1" },
-        { name: "Shagari", id: "c6078602-7b74-442f-b796-1073f3343f30" },
-        { name: "Silame", id: "253430e9-5aa9-41ab-9590-10a6ae2effa3" },
-        {
-          name: "Sokoto North",
-          id: "c1cebe25-ec22-4248-b947-7699d37569ce",
-        },
-        {
-          name: "Sokoto South",
-          id: "5bc0fd07-ee7d-401a-afb3-3a6563d18ca5",
-        },
-        { name: "Tambuwal", id: "145f2d51-418f-46f9-b970-7dcf0406be30" },
-        { name: "Tangaza", id: "f1235329-17ca-4352-9e03-b66a16b11b1a" },
-        { name: "Tureta", id: "2f363be3-bf12-44f3-a4c0-c3dc226e01da" },
-        { name: "Wamako", id: "fe600a0d-9cce-4fd1-9034-bcb202ffcc12" },
-        { name: "Wurno", id: "a0dec188-9a02-496b-8252-415166d8e208" },
-        { name: "Yabo", id: "79cef9ee-be1f-4095-9c54-ace649b84d07" },
+        { name: "Binji", id: "bi128374-bc82-473d-a928-1029384756ab" },
+        { name: "Bodinga", id: "bo128374-0192-473d-bc82-9384756102cd" },
+        { name: "Dange Shuni", id: "ds128374-1029-473d-9283-bcde10293847" },
+        { name: "Gada", id: "ga128374-bc82-473d-a928-1029384756ef" },
+        { name: "Goronyo", id: "go128374-0192-473d-bc82-9384756102gh" },
+        { name: "Gudu", id: "gu128374-1029-473d-9283-bcde10293847" },
+        { name: "Gwadabawa", id: "gw128374-bc82-473d-a928-1029384756ij" },
+        { name: "Illela", id: "il128374-0192-473d-bc82-9384756102kl" },
+        { name: "Isa", id: "is128374-1029-473d-9283-bcde10293847" },
+        { name: "Kebbe", id: "ke128374-bc82-473d-a928-1029384756mn" },
+        { name: "Kware", id: "kw128374-0192-473d-bc82-9384756102op" },
+        { name: "Rabah", id: "ra128374-1029-473d-9283-bcde10293847" },
+        { name: "Sabon Birni", id: "sb128374-bc82-473d-a928-1029384756qr" },
+        { name: "Shagari", id: "sh128374-0192-473d-bc82-9384756102st" },
+        { name: "Silame", id: "si128374-1029-473d-9283-bcde10293847" },
+        { name: "Sokoto North", id: "sn128374-bc82-473d-a928-1029384756uv" },
+        { name: "Sokoto South", id: "ss128374-0192-473d-bc82-9384756102wx" },
+        { name: "Tambuwal", id: "ta128374-1029-473d-9283-bcde10293847" },
+        { name: "Tangaza", id: "tg128374-bc82-473d-a928-1029384756yz" },
+        { name: "Tureta", id: "tu128374-0192-473d-bc82-9384756102ab" },
+        { name: "Wamako", id: "wa128374-1029-473d-9283-bcde10293847" },
+        { name: "Wurno", id: "wu128374-bc82-473d-a928-1029384756cd" },
+        { name: "Yabo", id: "ya128374-0192-473d-bc82-9384756102ef" }
       ],
       land_mass: "25,973 km²",
       universities: [
-        {
-          name: "Usmanu Danfodiyo University",
-          location: "Sokoto",
-          type: "Federal",
-        },
-        {
-          name: "Sokoto State University",
-          location: "Sokoto",
-          type: "State",
-        },
+        { name: "Usmanu Danfodiyo University", location: "Sokoto", type: "Federal" },
+        { name: "Sokoto State University", location: "Sokoto", type: "State" }
       ],
       airports: [
-        {
-          name: "Sadiq Abubakar III International Airport",
-          IATA_code: "SKO",
-          type: "Domestic",
-        },
+        { name: "Sadiq Abubakar III International Airport", IATA_code: "SKO", type: "Domestic" }
       ],
-      geopolitical_zone: "North West",
-    },
+      geopolitical_zone: "North West"
+    }
   },
   {
     state: {
       name: "Taraba",
       capital: "Jalingo",
-      id: "af2f8eeb-24b8-44e0-b43d-3f06c73b2c77",
+      latitude: 7.8921,
+      longitude: 10.5126,
+      id: "712c9d67-27b9-4d6d-8e6b-734892c556da",
       lgas: [
-        { name: "Bali", id: "79975f20-0572-41db-959f-4bacb411d48d" },
-        { name: "Donga", id: "edbac48e-9060-421f-85a9-4c62728807d7" },
-        { name: "Gashaka", id: "539bfaf6-a417-43b8-9a93-5dc4c611e5cb" },
-        { name: "Gassol", id: "2cb15c6c-5adb-4152-9cf3-869a11b6490d" },
-        { name: "Ibi", id: "35d04767-3b14-4d2a-85e4-3b9bf67a38c6" },
-        { name: "Jalingo", id: "118756c9-5826-4524-b01a-8ed319f5603c" },
-        {
-          name: "Karim Lamido",
-          id: "9af654ee-2f5c-419c-9aae-36ec925f36db",
-        },
-        { name: "Kumi", id: "1ea651ac-f366-4ffe-a444-868799a6517a" },
-        { name: "Lau", id: "88149701-7198-4a93-ba50-7f69cd8914e7" },
-        { name: "Sardauna", id: "63f0be88-e28a-467e-860b-8d78d608718b" },
-        { name: "Takum", id: "6e0d5dc7-d099-4dca-a095-38075d176b9d" },
-        { name: "Ussa", id: "f8bad1a8-b958-4c41-a668-5a7706d00a23" },
-        { name: "Wukari", id: "2d8da3d5-8ee6-465a-8179-f3e280c9a1b2" },
-        { name: "Yorro", id: "deed3edb-2dfc-4b70-8897-b8f831c032d9" },
-        { name: "Zing", id: "51f474ee-8497-4b90-b8d1-dfb85ac18644" },
+        { name: "Ardo Kola", id: "ak128374-bc82-473d-a928-1029384756ab" },
+        { name: "Bali", id: "ba128374-0192-473d-bc82-9384756102cd" },
+        { name: "Donga", id: "do128374-1029-473d-9283-bcde10293847" },
+        { name: "Gashaka", id: "ga128374-bc82-473d-a928-1029384756ef" },
+        { name: "Gassol", id: "gs128374-0192-473d-bc82-9384756102gh" },
+        { name: "Ibi", id: "ib128374-1029-473d-9283-bcde10293847" },
+        { name: "Jalingo", id: "ja128374-bc82-473d-a928-1029384756ij" },
+        { name: "Karim Lamido", id: "kl128374-0192-473d-bc82-9384756102kl" },
+        { name: "Kumi", id: "ku128374-1029-473d-9283-bcde10293847" },
+        { name: "Lau", id: "la128374-bc82-473d-a928-1029384756mn" },
+        { name: "Sardauna", id: "sa128374-0192-473d-bc82-9384756102op" },
+        { name: "Takum", id: "ta128374-1029-473d-9283-bcde10293847" },
+        { name: "Ussa", id: "us128374-bc82-473d-a928-1029384756qr" },
+        { name: "Wukari", id: "wu128374-0192-473d-bc82-9384756102st" },
+        { name: "Yorro", id: "yo128374-1029-473d-9283-bcde10293847" },
+        { name: "Zing", id: "zi128374-bc82-473d-a928-1029384756uv" }
       ],
       land_mass: "54,473 km²",
       universities: [
-        {
-          name: "Taraba State University",
-          location: "Jalingo",
-          type: "State",
-        },
-        {
-          name: "Federal University, Wukari",
-          location: "Wukari",
-          type: "Federal",
-        },
+        { name: "Federal University, Wukari", location: "Wukari", type: "Federal" },
+        { name: "Taraba State University", location: "Jalingo", type: "State" }
       ],
       airports: [
-        {
-          name: "Jalingo Airport",
-          IATA_code: "JAL",
-          type: "Domestic",
-        },
+        { name: "Jalingo Airport", IATA_code: "JAL", type: "Domestic" }
       ],
-      geopolitical_zone: "North East",
-    },
+      geopolitical_zone: "North East"
+    }
   },
   {
     state: {
       name: "Yobe",
       capital: "Damaturu",
-      id: "1a0bbf8e-5eb9-4740-8f68-39bc16a436a6",
+      latitude: 12.0000,
+      longitude: 11.5000,
+      id: "812c9d67-27b9-4d6d-8e6b-734892c556da",
       lgas: [
-        { name: "Bursari", id: "2bb505af-b423-42d0-9a8a-25246a53bf0b" },
-        { name: "Damaturu", id: "dd88898e-1008-4258-91f5-805b3143d631" },
-        { name: "Fika", id: "3f71ac83-389e-4c84-b9ef-a04b1916a317" },
-        { name: "Fune", id: "6f89e024-32aa-4cc4-85cc-873e593eaa84" },
-        { name: "Geidam", id: "2952e62e-229f-4383-a015-a82c6ac9ab0f" },
-        { name: "Gujba", id: "b6627c70-50a9-49a0-8701-9d8788bb41be" },
-        { name: "Gulani", id: "3eeda140-918c-436d-9793-fb5cdb62b3ec" },
-        { name: "Jakusko", id: "746e3411-f653-472c-9cdc-34e81dc09cdd" },
-        { name: "Karasuwa", id: "b380f158-6998-4f3c-a6e3-78aefe70726d" },
-        { name: "Machina", id: "3a8e105f-03e6-420c-9290-cc1102dd1b3e" },
-        { name: "Nangere", id: "f1e54876-b153-4826-a370-aff87ea8ef69" },
-        { name: "Nguru", id: "30c8b6a7-ac91-494e-b403-a83452797f95" },
-        { name: "Potiskum", id: "0be4b35c-1992-4534-a190-c075e246362b" },
-        { name: "Tarmuwa", id: "97c22550-305f-40ed-9f02-310975cdd003" },
-        { name: "Yunusari", id: "0c2aa0cc-88f8-49a6-8c5b-94719ea5fe32" },
-        { name: "Yusufari", id: "46aa031c-a8d0-4543-9876-bc87d5eb1888" },
+        { name: "Bade", id: "ba128374-bc82-473d-a928-1029384756ab" },
+        { name: "Bursari", id: "bu128374-0192-473d-bc82-9384756102cd" },
+        { name: "Damaturu", id: "da128374-1029-473d-9283-bcde10293847" },
+        { name: "Fika", id: "fi128374-bc82-473d-a928-1029384756ef" },
+        { name: "Fune", id: "fu128374-0192-473d-bc82-9384756102gh" },
+        { name: "Geidam", id: "ge128374-1029-473d-9283-bcde10293847" },
+        { name: "Gujba", id: "gu128374-bc82-473d-a928-1029384756ij" },
+        { name: "Gulani", id: "gl128374-0192-473d-bc82-9384756102kl" },
+        { name: "Jakusko", id: "ja128374-1029-473d-9283-bcde10293847" },
+        { name: "Karasuwa", id: "ka128374-bc82-473d-a928-1029384756mn" },
+        { name: "Machina", id: "ma128374-0192-473d-bc82-9384756102op" },
+        { name: "Nangere", id: "na128374-1029-473d-9283-bcde10293847" },
+        { name: "Nguru", id: "ng128374-bc82-473d-a928-1029384756qr" },
+        { name: "Potiskum", id: "po128374-0192-473d-bc82-9384756102st" },
+        { name: "Tarmuwa", id: "ta128374-1029-473d-9283-bcde10293847" },
+        { name: "Yunusari", id: "yu128374-bc82-473d-a928-1029384756uv" },
+        { name: "Yusufari", id: "ys128374-0192-473d-bc82-9384756102wx" }
       ],
       land_mass: "45,502 km²",
       universities: [
-        {
-          name: "Yobe State University",
-          location: "Damaturu",
-          type: "State",
-        },
-        {
-          name: "Federal University, Gashua",
-          location: "Gashua",
-          type: "Federal",
-        },
+        { name: "Federal University, Gashua", location: "Gashua", type: "Federal" },
+        { name: "Yobe State University", location: "Damaturu", type: "State" }
       ],
-      airports: [
-        {
-          name: "Gombe Lawanti International Airport",
-          IATA_code: "GMO",
-          type: "Domestic",
-        },
-      ],
-      geopolitical_zone: "North East",
-    },
+      airports: [],
+      geopolitical_zone: "North East"
+    }
   },
   {
     state: {
       name: "Zamfara",
       capital: "Gusau",
-      id: "23dcf8db-fa44-424c-b127-5a64dfc0f7d2",
+      latitude: 12.1222,
+      longitude: 6.2236,
+      id: "912c9d67-27b9-4d6d-8e6b-734892c556da",
       lgas: [
-        { name: "Bakura", id: "255fd07b-8d38-4513-b7cf-d382b6138684" },
-        {
-          name: "Birnin Magaji/Kiyaw",
-          id: "7ee84415-d4e4-4d97-87d1-228b65d990ac",
-        },
-        { name: "Bukkuyum", id: "9b267670-857f-4525-a707-0b568fc435f4" },
-        { name: "Bungudu", id: "d101c5fa-f878-4d6c-9185-bb569f8347cd" },
-        { name: "Gummi", id: "50650140-369e-4dfe-b867-a19c5080e64c" },
-        { name: "Gusau", id: "eea8342c-6fe4-4d6a-8c1e-3460d35c9ec1" },
-        {
-          name: "Kaura Namoda",
-          id: "f48ce7b9-e8b8-4160-a28b-5dc58a22a6c2",
-        },
-        { name: "Maradun", id: "ebe32432-75b9-4b4d-b78f-98e32546c108" },
-        { name: "Maru", id: "b8a9610a-265e-4a39-a781-fa8849f23388" },
-        { name: "Shinkafi", id: "810ea46e-9d92-4c5c-9ed9-02a68517dc4f" },
-        {
-          name: "Talata Mafara",
-          id: "86d58ff4-8490-4de4-8891-e828e136463e",
-        },
-        { name: "Chafe", id: "b17625ce-79f1-4cb6-80bc-692abada791c" },
-        { name: "Zurmi", id: "efb06deb-f8a0-4088-a978-4dfdfebe02ff" },
+        { name: "Anka", id: "an128374-bc82-473d-a928-1029384756ab" },
+        { name: "Bakura", id: "ba128374-0192-473d-bc82-9384756102cd" },
+        { name: "Birnin Magaji/Kiyaw", id: "bm128374-1029-473d-9283-bcde10293847" },
+        { name: "Bukkuyum", id: "bu128374-bc82-473d-a928-1029384756ef" },
+        { name: "Bungudu", id: "bg128374-0192-473d-bc82-9384756102gh" },
+        { name: "Gummi", id: "gu128374-1029-473d-9283-bcde10293847" },
+        { name: "Gusau", id: "gs128374-bc82-473d-a928-1029384756ij" },
+        { name: "Kaura Namoda", id: "kn128374-0192-473d-bc82-9384756102kl" },
+        { name: "Bakura", id: "bk128374-1029-473d-9283-bcde10293847" },
+        { name: "Maradun", id: "ma128374-bc82-473d-a928-1029384756mn" },
+        { name: "Maru", id: "mr128374-0192-473d-bc82-9384756102op" },
+        { name: "Shinkafi", id: "sh128374-1029-473d-9283-bcde10293847" },
+        { name: "Talata Mafara", id: "tm128374-bc82-473d-a928-1029384756qr" },
+        { name: "Tsafe", id: "ts128374-0192-473d-bc82-9384756102st" },
+        { name: "Zurmi", id: "zu128374-1029-473d-9283-bcde10293847" }
       ],
       land_mass: "39,762 km²",
       universities: [
-        {
-          name: "Federal University, Gusau",
-          location: "Gusau",
-          type: "Federal",
-        },
+        { name: "Federal University, Gusau", location: "Gusau", type: "Federal" }
       ],
       airports: [],
-      geopolitical_zone: "North West",
-    },
+      geopolitical_zone: "North West"
+    }
   },
+  {
+    state: {
+      name: "Federal Capital Territory (FCT)",
+      capital: "Abuja",
+      latitude: 9.0765,
+      longitude: 7.3986,
+      id: "012c9d67-27b9-4d6d-8e6b-734892c556da",
+      lgas: [
+        { name: "Abaji", id: "ab128374-bc82-473d-a928-1029384756ab" },
+        { name: "Bwari", id: "bw128374-0192-473d-bc82-9384756102cd" },
+        { name: "Gwagwalada", id: "gw128374-1029-473d-9283-bcde10293847" },
+        { name: "Kuje", id: "ku128374-bc82-473d-a928-1029384756ef" },
+        { name: "Kwali", id: "kw128374-0192-473d-bc82-9384756102gh" },
+        { name: "Municipal Area Council", id: "mac128374-1029-473d-9283-bcde10293847" }
+      ],
+      land_mass: "7,315 km²",
+      universities: [
+        { name: "University of Abuja", location: "Gwagwalada", type: "Federal" }
+      ],
+      airports: [
+        { name: "Nnamdi Azikiwe International Airport", IATA_code: "ABV", type: "International" }
+      ],
+      geopolitical_zone: "North Central"
+    }
+  }
 ];

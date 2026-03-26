@@ -1,220 +1,106 @@
-# use-nigeria-location
+# use-nigeria-location-state-coordinate
 
-> Custom hooks that provides you the list of all States, LGAs, Airports, Universities, Land mass, Geo-Political zones in Nigeria.
+[](https://www.npmjs.com/package/use-nigeria-location-state-coordinate)
+[](https://opensource.org/licenses/MIT)
 
-Follow this project's author, [Muiz Haruna](https://github.com/devdesiignn/), and give the project a star ⭐ to show your appreciation and recommend to your friends.
+An enhanced, high-performance utility for Nigerian geographic data. This is an extended fork of the original project by [Muiz Haruna](https://github.com/devdesiignn/), updated to include **State Geo-Coordinates (Latitude & Longitude)** and optimized for modern TypeScript workflows.
 
-## Install
+## ✨ What's New in v1.1.6?
 
-Install with [npm](https://www.npmjs.com/)
+- 📍 **Geo-Coordinates:** Built-in Latitude and Longitude for all 36 states + FCT.
+- 🔍 **Smart Search:** All hooks now support lookups by **State Name** (e.g., "Lagos") or **UUID**.
+- 🚀 **Upgraded Lite Hooks:** `useAllStates()` and `useSingleState()` now include coordinates by default.
+- 💎 **Type Safety:** Full TypeScript support with updated `TState`, `TStateInfo`, and `TLGA` interfaces.
+
+## 📦 Install
 
 ```sh
-npm install use-nigeria-location
+npm install use-nigeria-location-state-coordinate
 ```
 
-## Usage
+## 🛠 Usage
 
-### Fetch all information from all states
+### Fetch State Coordinates (Direct)
+
+You can now pass a **UUID** or a **State Name**. It's case-insensitive\!
 
 ```js
-import { useAllStatesInfo } from "use-nigeria-location";
+import { useStateCoordinates } from "use-nigeria-location-state-coordinate";
 
-console.log(useAllStatesInfo())
-/* => 
-[{
-  name: "Abia",
-  capital: "Umuahia",
-  id: "2e14a7ed-349a-44f6-9e12-abfec3e5f6ed",
-  lgas: [
-  { name: "Aba South", id: "4c840cb1-8f58-40d3-9aff-5a3b77fdba71" },
+// Fetch by Name
+const coordsByName = useStateCoordinates("Lagos");
+// => { latitude: 6.5244, longitude: 3.3792 }
 
-  ... ],
-  land_mass: "6,320 km²",
-  universities: 
-  [
-    {
-      name: "Abia State University",
-      location: "Uturu",
-      type: "State",
-    },
-
-  ... ],
-  airports: [],
-  geopolitical_zone: "South East",
-}, 
-
-... ]
-*/
+// Fetch by UUID
+const coordsByID = useStateCoordinates("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed");
+// => { latitude: 5.4527, longitude: 7.5248 }
 ```
 
-### Fetch all information from single state
+### Fetch Single State (Lite + Geo) ⚡
+
+Perfect for quick lookups in your components.
 
 ```js
-import { useStateInfo } from "use-nigeria-location";
+import { useSingleState } from "use-nigeria-location-state-coordinate";
 
-// takes state ID parameter
-
-console.log(useStateInfo("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed"))
+const state = useSingleState("Oyo");
 /* => 
-{
-  name: "Abia",
-  capital: "Umuahia",
-  id: "2e14a7ed-349a-44f6-9e12-abfec3e5f6ed",
-  lgas: 
-  [
-  { name: "Aba South", id: "4c840cb1-8f58-40d3-9aff-5a3b77fdba71" },
-  ...
-  ],
-  land_mass: "6,320 km²",
-  universities: 
-  [
-  { name: "Abia State University",
-    location: "Uturu",
-    type: "State",
-  },
-  ...
-  ],
-  airports: [],
-  geopolitical_zone: "South East",
+{ 
+  name: "Oyo", 
+  id: "4b...", 
+  latitude: 7.3775, 
+  longitude: 3.9470 
 }
 */
 ```
 
-### Fetch all states
+### Fetch All States with Coordinates
+
+Use this for dropdowns or list views that require mapping data.
 
 ```js
-import { useAllStates } from "use-nigeria-location";
+import { useAllStatesCoordinates } from "use-nigeria-location-state-coordinate";
 
-console.log(useAllStates())
+const states = useAllStatesCoordinates();
 /* => 
 [ 
-  { name: "Abia", id: "2e14a7ed-349a-44f6-9e12-abfec3e5f6ed" },
-  { name: "Adamawa", id: "3ac495b8-4196-4126-bf9e-bb8d43a0355d" },
-  { name: "Akwa Ibom", id: "b6ed5429-7677-4aad-bf2a-97ce4f211494" },
-
-... ]
-*/
-```
-
-### Fetch single state
-
-```js
-import { useSingleState } from "use-nigeria-location";
-
-// takes state ID parameter
-
-console.log(useSingleState("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed"))
-// => { name: "Abia", id: "2e14a7ed-349a-44f6-9e12-abfec3e5f6ed" }
-```
-
-### Fetch capital of single state
-
-```js
-import { useStateCapital } from "use-nigeria-location";
-
-// takes state ID parameter
-
-console.log(useStateCapital("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed")) 
-// => "Umuahia"
-```
-
-### Fetch all lgas from single state
-
-```js
-import { useStateLGAs } from "use-nigeria-location";
-
-// takes state ID parameter
-console.log(useStateLGAs("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed"))
-/* => 
-[
-  { name: "Aba South", id: "4c840cb1-8f58-40d3-9aff-5a3b77fdba71" },
-  { name: "Arochukwu", id: "f46f5f01-43e1-440c-84a5-72382d0e6b94" },
-  { name: "Bende", id: "836932e0-0aa7-4f7c-a3ef-44b5d30775c4" },
-
-  ...
+  { name: "Abia", id: "2e...", latitude: 5.4527, longitude: 7.5248 }, 
+  ... 
 ]
 */
 ```
 
-### Fetch single lga in single state
+---
 
-```js
-import { useSingleLGA } from "use-nigeria-location";
+## 🔍 Advanced API Reference
 
-// takes state ID parameter and LGA ID parameter
-console.log(useSingleLGA("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed", "4c840cb1-8f58-40d3-9aff-5a3b77fdba71"))
-// => { name: "Aba South", id: "4c840cb1-8f58-40d3-9aff-5a3b77fdba71" }
-```
+All functions below now accept either a **State Name** or a **State ID**.
 
-### Fetch land mass of single state
+| Function                    | Parameter    | Description                                      |
+| :-------------------------- | :----------- | :----------------------------------------------- |
+| `useStateInfo(id/name)`     | `identifier` | Returns full data object for a single state.     |
+| `useSingleState(id/name)`   | `identifier` | Returns Name, ID, Lat, and Lng for a state.      |
+| `useStateLGAs(id/name)`     | `identifier` | Returns list of all LGAs in the state.           |
+| `useSingleLGA(s, l)`        | `state, lga` | Returns a specific LGA (Lookup by Name or ID).   |
+| `useStateUnis(id/name)`     | `identifier` | Returns all Universities in the state.           |
+| `useStateAirports(id/name)` | `identifier` | Returns all Airports in the state.               |
+| `useStateCapital(id/name)`  | `identifier` | Returns the state capital name.                  |
+| `useStateGeoPoli(id/name)`  | `identifier` | Returns the Geopolitical Zone (e.g. South West). |
 
-```js
-import { useStateLandMass } from "use-nigeria-location";
+---
 
-// takes state ID parameter
+## 👥 Authors
 
-console.log(useStateLandMass("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed")) 
-// => "6,320 km²"
-```
+### [Remilekun Olowookere](https://github.com/oludaremy/)
 
-### Fetch all universities in single state
+_Fork Maintainer & Contributor_
 
-```js
-import { useStateUnis } from "use-nigeria-location";
+### [Muiz Haruna](https://github.com/devdesiignn/)
 
-// takes state ID parameter
+_Original Author_
 
-console.log(useStateUnis("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed")) 
-/* => 
-[
-  { 
-  name: "Abia State University",
-  location: "Uturu",
-  type: "State",
-  },
-  {
-  name: "Michael Okpara University of Agriculture",
-  location: "Umudike",
-  type: "Federal",
-  },
-]
-*/
-```
+## 📜 License
 
-### Fetch all airports in single state
+This project is licensed under the MIT License. If you find this package useful, please consider starring both the [original repository](https://github.com/devdesiignn/use-nigeria-location) and this [fork](https://www.google.com/search?q=https://github.com/oludaremy/use-nigeria-location-state-coordinate)\!
 
-```js
-import { useStateAirports } from "use-nigeria-location";
-
-// takes state ID parameter
-
-console.log(useStateAirports("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed")) 
-// => []
-```
-
-### Fetch geo-political zone of single state
-
-```js
-import { useStateGeoPoli } from "use-nigeria-location";
-
-// takes state ID parameter
-
-console.log(useStateGeoPoli("2e14a7ed-349a-44f6-9e12-abfec3e5f6ed")) 
-// => "South East"
-```
-
-## Author
-
-### Muiz Haruna or DEVDESIIGNN
-
-#### **Connect with me:**
-
-[![Twitter: @dev_desiignn](https://img.shields.io/badge/twitter-1D9BF0?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/dev_desiignn) [![Facebook: @devdesiignnn](https://img.shields.io/badge/facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/devdesiignnn) [![LinkedIn: @devdesiignn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devdesiignn/)
-
-## License
-
-Copyright © 2024 [Muiz Haruna](https://github.com/devdesiignn/).
-
-This project is licensed under the MIT License.
-
-Thank you for using this package. 🔥 && 🧊
+🌐 **Live Demo:** [View Interactive Map](https://www.google.com/search?q=https://oludaremy.github.io/use-nigeria-location-state-coordinate/)

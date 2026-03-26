@@ -15,6 +15,8 @@ export type TStateInfo = {
   universities: TUniversity[];
   airports: TAirport[];
   geopolitical_zone: string;
+  latitude: number;
+  longitude: number;
 };
 
 export type TState = Omit<
@@ -26,6 +28,8 @@ export type TState = Omit<
   | "airports"
   | "geopolitical_zone"
 >;
+
+export type TStateCoordinates = Pick<TStateInfo, "id" | "name" | "latitude" | "longitude">;
 
 export type TLGA = { name: string; id: string };
 

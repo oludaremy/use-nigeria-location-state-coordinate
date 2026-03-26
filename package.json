@@ -1,11 +1,15 @@
 {
-  "name": "use-nigeria-location",
-  "version": "1.0.0",
+  "name": "use-nigeria-location-state-coordinate",
+  "version": "1.1.6",
+  "description": "A lightweight utility for Nigerian states, LGAs, and coordinates. Custom hooks that provides you the list of all States, LGAs, Airports, Universities in Nigeria.",
+  "author": "Remilekun Dare Olowookere (Original by Muiz Haruna)",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
+    "lint": "tsc"
   },
   "keywords": [
     "Nigeria",
@@ -19,12 +23,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devdesiignn/use-nigeria-location.git"
+    "url": "git+https://github.com/oludaremy/use-nigeria-location-state-coordinate.git"
   },
-  "homepage": "https://github.com/devdesiignn/use-nigeria-location#readme",
-  "author": "DEVDESIIGNN",
+  "homepage": "https://github.com/oludaremy/use-nigeria-location-state-coordinate#readme",
   "license": "MIT",
-  "description": "Custom hooks that provides you the list of all States, LGAs, Airports, Universities in Nigeria.",
   "devDependencies": {
     "tsup": "^8.1.0",
     "typescript": "^5.5.3"
